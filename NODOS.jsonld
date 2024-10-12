@@ -1,0 +1,2847 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "numero": "http://example.org/numero",
+    "escala": "http://example.org/escala",
+    "contexto": "http://example.org/contexto",
+    "problema": "http://example.org/problema",
+    "solucion": "http://example.org/solucion",
+    "grafico": "http://example.org/grafico",
+    "referencias": "http://example.org/referencias",
+    "relaciones": "http://example.org/relaciones",
+    "Mitiga": {
+      "@id": "http://example.org/relaciones/mitiga",
+      "@type": "@id"
+    },
+    "Promueve": {
+      "@id": "http://example.org/relaciones/promueve",
+      "@type": "@id"
+    },
+    "Fomenta": {
+      "@id": "http://example.org/relaciones/fomenta",
+      "@type": "@id"
+    },
+    "Gobierna": {
+      "@id": "http://example.org/relaciones/gobierna",
+      "@type": "@id"
+    },
+    "Restablece": {
+      "@id": "http://example.org/relaciones/restablece",
+      "@type": "@id"
+    },
+    "ActuaEn": {
+      "@id": "http://example.org/relaciones/actuaEn",
+      "@type": "@id"
+    },
+    "InfluyeEn": {
+      "@id": "http://example.org/relaciones/influyeEn",
+      "@type": "@id"
+    },
+    "RelacionadoCon": {
+      "@id": "http://example.org/relaciones/relacionadoCon",
+      "@type": "@id"
+    },
+    "AfectaA": {
+      "@id": "http://example.org/relaciones/afectaA",
+      "@type": "@id"
+    },
+    "EsParteDe": {
+      "@id": "http://example.org/relaciones/esParteDe",
+      "@type": "@id"
+    },
+    "UbicadoEn": {
+      "@id": "http://example.org/relaciones/ubicadoEn",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "id": "http://example.org/nodo/WastelandsForUrbanWildlife",
+      "type": "Nodo",
+      "numero": 22,
+      "escala": "Meso",
+      "contexto": "City",
+      "problema": "Urban wastelands present an opportunity to create needed urban wildlife habitats where people can experience and connect with nature. Research indicates that wastelands often support rich floral diversity and provide habitats for various animal species adapted to the unique conditions found there. In addition, wastelands may have significant conservation value due to the presence of wetlands, riparian zones, and other important ecosystems in the urban matrix. By serving as stepping stones linking patches of habitat, wastelands can play a vital role in enriching the local ecological network and countering habitat fragmentation driven by urban development. In environments deficient in greenspace and natural habitats, reclaimed wastelands can help fill critical gaps.",
+      "solucion": {
+        "Mitiga": "By reclaiming wastelands, it reduces habitat fragmentation driven by urban development.",
+        "Promueve": "Identifies abandoned sites that can serve as urban wildlife areas and fosters community-led regeneration projects.",
+        "Fomenta": "Community involvement in the conservation and restoration of these sites.",
+        "Restablece": "The connection between habitats by creating urban green infrastructure, integrating diverse wildlife habitats.",
+        "Gobierna": "Encourages governance and management frameworks that ensure the sustainable development of wastelands for biodiversity."
+      },
+      "grafico": "https://drive.google.com/file/d/1-yY06JDJZKZbS6tc9qDTLft_Apgxcoyl/view?usp=drive_link",
+      "referencias": [
+        {
+          "id": "http://example.org/referencia/1",
+          "texto": "HERBST H, HERBST V. The development of an evaluation method using a geographic information system to determine the importance of wasteland sites as urban wildlife areas."
+        },
+        {
+          "id": "http://example.org/referencia/2",
+          "texto": "LANGER A. Diversity and Design on a Former Freight Rail-Yard."
+        }
+      ],
+      "relaciones": {
+        "ActuaEn": [
+          "Vida silvestre",
+          "Redes ecológicas",
+          "Biodiversidad del suelo",
+          "Redes hidrológicas"
+        ],
+        "InfluyeEn": [
+          "Iluminación urbana",
+          "Calidad del aire",
+          "Condiciones sociales"
+        ],
+        "RelacionadoCon": {
+          "linkUp": "Biodiversity patches",
+          "linkdown": [
+            "Native plants for species diversity",
+            "Strategic placement of resilient trees",
+            "Preserving dead trees",
+            "Butterfly garden",
+            "Permeable surfaces",
+            "Sodium vapor lamps",
+            "Light sensors",
+            "Shielded luminaires",
+            "Urban space for human-animal"
+          ]
+        },
+        "AfectaA": [
+          "Buildings for biodiversity",
+          "Rain Gardens",
+          "Permeable surfaces",
+          "Human-wildlife interactions"
+        ],
+        "EsParteDe": [
+          "Green and blue urban infrastructure networks",
+          "Sustainable urban regeneration initiatives"
+        ],
+        "UbicadoEn": "Urban areas with potential for habitat restoration",
+        "Proporciona": "Opportunities for wildlife habitat creation, ecological connectivity, and public interaction with nature.",
+        "DependeDe": "Community engagement and governance policies for sustainability"
+      },
+      "urban_ecology_principles": [
+        "House plots, street blocks, neighborhoods, cities, and urban regions support relatively different vegetation and associated animals at each spatial scale.",
+        "Plant and animal biodiversity is typically high in neglected sites, and decreases with more design, planning, management, and/or maintenance."
+      ]
+    },
+    {
+      "id": "http://example.org/nodo/VegetationForNoiseAttenuation",
+      "type": "Nodo",
+      "numero": 34,
+      "escala": "Meso",
+      "contexto": "City",
+      "problema": "Excessive noise is a form of acoustic pollution and environmental disruption in urban areas. Its effects are expected to intensify, especially in urbanized zones, due to urban growth and high noise from vehicular traffic. This noise can disrupt animal communication by masking crucial signals for mating, danger alerts, territorial defense, reproduction, nurturing offspring, and hunting. Each species relies on specific frequencies that can be overwhelmed by human-made noise, impacting survival and reproduction. The most noise-sensitive species may be displaced from natural habitats, altering ecological communities. Furthermore, chronic noise acts as a stressor, weakening animals and making them susceptible to disease and predation, threatening population survival. For humans, prolonged exposure causes hearing loss, stress, cardiovascular issues, sleep problems, diminished work and academic performance, and other health effects. Environmental noise decreases residential quality of life, interferes with recreation and culture. Therefore, mitigating urban acoustic pollution is a priority to preserve health and well-being for both wildlife and human communities.",
+      "solucion": {
+        "Mitiga": "Mitigates the effects of noise pollution by incorporating vegetation strategically placed near noise sources.",
+        "Promueve": "Promotes the creation of green spaces that act as noise buffers and enhance urban biodiversity.",
+        "Restablece": "Restores acoustic balance in urban environments by using natural elements for sound attenuation.",
+        "Fomenta": "Fosters healthier environments for both humans and wildlife by reducing noise-related stress.",
+        "Gobierna": "Encourages urban planning policies that integrate noise attenuation strategies with green infrastructure."
+      },
+      "grafico": "https://drive.google.com/file/d/1H_iIE6EZLmsI7F3dTZxhCjnfnfCXB2NU/view?usp=drive_link",
+      "referencias": [
+        {
+          "id": "http://example.org/referencia/1",
+          "texto": "SAKIEH Y, JAAFARI S, AHMADI M, et al. Green and calm: Modeling the relationships between noise pollution propagation and spatial patterns of urban structures and green covers."
+        },
+        {
+          "id": "http://example.org/referencia/2",
+          "texto": "GAUDON J M, MCTAVISH M J, HAMBERG J, et al. Noise attenuation varies by interactions of land cover and season in an urban/peri-urban landscape."
+        },
+        {
+          "id": "http://example.org/referencia/3",
+          "texto": "DUQUETTE C A, LOSS S R, HOVICK T J. A meta‐analysis of the influence of anthropogenic noise on terrestrial wildlife communication strategies."
+        },
+        {
+          "id": "http://example.org/referencia/4",
+          "texto": "ROSENHOUSE G. Sound barriers to enable open windows and integration in landscape."
+        }
+      ],
+      "relaciones": {
+        "ActuaEn": [
+          "Redes hidrológicas",
+          "Vida silvestre",
+          "Iluminación urbana"
+        ],
+        "InfluyeEn": [
+          "Urban health and well-being",
+          "Species communication",
+          "Stress levels in humans and animals"
+        ],
+        "RelacionadoCon": {
+          "linkUp": [
+            "Urban space for human-animal",
+            "Street tree biodiversity",
+            "Garden connection",
+            "Cemetery Biodiversity Conservation"
+          ],
+          "linkdown": [
+            "Grasslands for sound attenuation",
+            "Strategic placement of sound barriers",
+            "Integration of shrubs and trees for noise mitigation"
+          ]
+        },
+        "AfectaA": [
+          "Noise pollution",
+          "Urban biodiversity",
+          "Wildlife communication systems"
+        ],
+        "EsParteDe": [
+          "Green and blue urban infrastructure networks",
+          "Urban noise mitigation strategies"
+        ],
+        "UbicadoEn": "Urban areas with high vehicular traffic and human activity",
+        "Proporciona": "Noise attenuation through natural vegetation, enhancing urban soundscapes and improving health.",
+        "DependeDe": "Careful urban planning and policy frameworks that prioritize the integration of green areas with noise mitigation strategies."
+      },
+      "urban_ecology_principles": [
+        "Animals tolerate and communicate in endless urban noise—some loud, most low frequency.",
+        "Vegetation can effectively reduce noise levels in urban environments, depending on type, density, and spatial arrangement."
+      ]
+    },
+    {
+  "id": "http://example.org/nodo/UrbanPonds",
+  "type": "Nodo",
+  "numero": 11,
+  "escala": "Macro",
+  "contexto": "City",
+  "problema": "Urban development has significantly damaged freshwater habitats, altering hydrological cycles. Urban ponds are among the most affected habitats, experiencing a notable decrease in biodiversity. This is due to various factors, such as the increase in impermeable surfaces, species invasion, habitat degradation, water pollution, overexploitation, and flow modifications. These alterations lead to problems like eutrophication, hypoxia, and the transport of metals and microplastics through runoff, among other significant changes in urban water bodies.",
+  "solucion": {
+    "Mitiga": "Mitigates habitat degradation and water pollution through strategic management of urban ponds, including plant communities and prevention of non-native species.",
+    "Promueve": "Promotes the use of urban ponds as biodiversity reservoirs and stepping stones for species migration.",
+    "Restablece": "Restores hydrological balance by enhancing connectivity with other water bodies and managing pollutant levels.",
+    "Fomenta": "Fosters healthier freshwater habitats by improving water quality and supporting diverse aquatic ecosystems.",
+    "Gobierna": "Encourages policies to prevent habitat degradation and promote sustainable urban pond management."
+  },
+  "grafico": "https://drive.google.com/file/d/1mdIv7i6qrVcf46hFnM1ujZyqJZ_h_SeZ/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "HASSALL C. The ecology and biodiversity of urban ponds."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "NAYEB YAZDI M, SCOTT D, SAMPLE D J, et al. Efficacy of a retention pond in treating stormwater nutrients and sediment."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "LIU F, VIANELLO A, VOLLERTSEN J. Retention of microplastics in sediments of urban and highway stormwater retention ponds."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Redes hidrológicas",
+      "Vida silvestre",
+      "Biodiversidad acuática"
+    ],
+    "InfluyeEn": [
+      "Calidad del agua",
+      "Migración de especies",
+      "Ciclos hidrológicos urbanos"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Hydrological networks",
+        "Creation of artificial microhabitats"
+      ],
+      "linkdown": [
+        "Permeable surfaces",
+        "Riparian buffers",
+        "Floating wetland islands"
+      ]
+    },
+    "AfectaA": [
+      "Urban biodiversity",
+      "Water quality",
+      "Aquatic ecosystems"
+    ],
+    "EsParteDe": [
+      "Urban water management systems",
+      "Sustainable urban infrastructure"
+    ],
+    "UbicadoEn": "Urban areas with freshwater habitats and stormwater management needs",
+    "Proporciona": "Retention of pollutants, microplastics, and sediment, improving water quality and supporting biodiversity.",
+    "DependeDe": "Sustainable urban planning, policy frameworks, and community engagement."
+  },
+  "urban_ecology_principles": [
+    "Stormwater runoff, which cleans urban surfaces and is piped or ditched to stream, pond, or wetland, causes pulses or fluctuations in water levels and pollutant concentrations.",
+    "Most local waterbodies have intensive human use and disturbance, considerable hard edge, and a quite limited littoral area of vegetation zones with rich aquatic fauna."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/SodiumVaporLamps",
+  "type": "Nodo",
+  "numero": 31,
+  "escala": "Micro",
+  "contexto": "City",
+  "problema": "Excessive lighting, along with the color and wavelength of light, poses a significant problem for urban ecosystem fauna and flora. Although lighting is essential, many current systems are not designed to mitigate their negative environmental impact. Light pollution and excessive night sky brightness are direct consequences of this issue.",
+  "solucion": {
+    "Mitiga": "Mitigates light pollution by replacing white lights with sodium vapor lamps, which have less impact on wildlife.",
+    "Promueve": "Promotes the use of sodium vapor lamps over halogen or LED lights to reduce environmental impact on urban fauna and flora.",
+    "Restablece": "Restores the natural night environment by reducing excessive artificial light.",
+    "Fomenta": "Fosters better cohabitation between humans and nocturnal wildlife by minimizing light disturbance.",
+    "Gobierna": "Encourages policy frameworks that support the transition to environmentally-friendly lighting solutions in urban areas."
+  },
+  "grafico": "https://drive.google.com/file/d/1nK3qwZ7yGHxsZZg6T8RfuI4wMsMo3G9b/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "MARTÍN B, PÉREZ H, FERRER M. Light-Emitting Diodes (LED): A Promising Street Light System to Reduce the Attraction to Light of Insects."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "Kaushik, K., Nair, S., & Ahamad, A. Studying light pollution as an emerging environmental concern in India."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Iluminación urbana",
+      "Vida silvestre",
+      "Contaminación lumínica"
+    ],
+    "InfluyeEn": [
+      "Nocturnal wildlife behavior",
+      "Urban ecosystem health",
+      "Night sky brightness"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Plant barriers to dampen artificial light",
+        "Advertising lighting",
+        "Campaign on light pollution",
+        "Street tree biodiversity",
+        "Green Parking Lots",
+        "Wastelands for urban wildlife",
+        "Cemetery Biodiversity Conservation",
+        "Buildings for biodiversity",
+        "Superblock for biodiversity"
+      ],
+      "linkdown": [
+        "Shielded luminaires",
+        "Light sensors",
+        "Street tree placement to block light"
+      ]
+    },
+    "AfectaA": [
+      "Wildlife species migration patterns",
+      "Reproductive cycles in nocturnal species",
+      "Human circadian rhythms"
+    ],
+    "EsParteDe": [
+      "Urban lighting management systems",
+      "Sustainable urban infrastructure"
+    ],
+    "UbicadoEn": "Urban areas where excessive artificial light disturbs wildlife and humans",
+    "Proporciona": "Reduction in light pollution, improved health for nocturnal species, and more natural night environments.",
+    "DependeDe": "Policies and urban planning frameworks that promote environmentally responsible lighting solutions."
+  },
+  "urban_ecology_principles": [
+    "Many terrestrial wildlife species are nocturnal, avoiding daytime people and traffic, and respond to diverse changing urban lights."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/StrategicPlacementOfResilientTrees",
+  "type": "Nodo",
+  "numero": 36,
+  "escala": "Macro",
+  "contexto": "Roads, parks, urban green areas",
+  "problema": "Urban areas tend to generate stressful environmental conditions for trees. Among the main factors are: the urban heat island effect leading to extreme temperatures and more frequent droughts; air pollution from vehicle and industrial emissions; paving and soil sealing causing compaction, waterlogging, and impermeabilization; and salinization from the use of de-icing salts on streets and sidewalks. In addition, other sources of stress include nutrient deficiencies, root damage, lesions on bark and branches, and lack of sunlight due to tall buildings.",
+  "solucion": {
+    "Promueve": "Promotes the use of native tree species that are tolerant to urban stressors such as drought, heat, pollution, and severe pruning.",
+    "Fomenta": "Fosters ecological facilitation among trees and plants, enhancing systemic resilience against disease outbreaks.",
+    "Mitiga": "Mitigates urban environmental stress on trees through strategic placement, judicious pruning, and soil management."
+  },
+  "grafico": "https://drive.google.com/file/d/1HjZc6vJg2Xezyb1TSZFox5xM_vi7ZTVQ/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "DANIELSON S C, MASCIA R, METZGER M, et al. Stress-resistant trees are more common in urban than rural forests: A case study of Cleveland, Ohio’s natural parks."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "SJÖMAN H, BUSSE NIELSEN A. Selecting trees for urban paved sites in Scandinavia – A review of information on stress tolerance and its relation to the requirements of tree planners."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "LIU J, SLIK F. Are street trees friendly to biodiversity?"
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Reducción de estrés ambiental en árboles urbanos",
+      "Infraestructura verde"
+    ],
+    "InfluyeEn": [
+      "Salud de los árboles urbanos",
+      "Resiliencia ecológica en espacios verdes",
+      "Biodiversidad urbana"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Wastelands for urban wildlife",
+        "Tiny forest",
+        "Cemetery Biodiversity Conservation",
+        "Green Parking Lots",
+        "Garden connection"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Calidad del aire",
+      "Reducción del efecto isla de calor",
+      "Ecosistemas urbanos"
+    ],
+    "EsParteDe": [
+      "Redes ecológicas urbanas",
+      "Infraestructura verde urbana"
+    ],
+    "UbicadoEn": "Areas with high exposure to urban stressors such as roadsides, parks, and green belts.",
+    "Proporciona": "Increased resilience of urban trees, improved air quality, and enhanced biodiversity in green spaces."
+  },
+  "urban_ecology_principles": [
+    "Trees and shrubs, typically in straight lines along streets and roads, with associated animals are increasingly stressed by more traffic and diverse related pollutants."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/ShieldedLuminaires",
+  "type": "Nodo",
+  "numero": 33,
+  "escala": "Macro",
+  "contexto": "City",
+  "problema": "Improper lighting direction is a major contributor to light pollution and reduced energy efficiency. The incorrect positioning of luminaires and the lack of accessories to precisely control light distribution not only increase costs and light waste but also create glare. These issues have a detrimental effect on urban ecosystems and wildlife.",
+  "solucion": {
+    "Mitiga": "Mitigates light pollution by using shielded luminaires that direct light downward and prevent skyward scatter.",
+    "Promueve": "Promotes reduced intensity of artificial nighttime lighting, especially near natural areas, to minimize disruption to wildlife and their circadian rhythms."
+  },
+  "grafico": "https://drive.google.com/file/d/1VYprW1WYMJgtKx6wMr4SpJpYeVglN3yi/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "Bradsworth, N., White, J. G., Rendall, A. R., Carter, N., Whisson, D. A., & Cooke, R. (2022). Using thresholds to determine priorities for apex predator conservation in an urban landscape."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "Kaushik, K., Nair, S., & Ahamad, A. (2022). Studying light pollution as an emerging environmental concern in India."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Iluminación urbana",
+      "Contaminación lumínica",
+      "Conservación de fauna nocturna"
+    ],
+    "InfluyeEn": [
+      "Salud de los ecosistemas nocturnos",
+      "Eficiencia energética urbana",
+      "Bienestar de la fauna nocturna"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Plant barriers to dampen artificial light",
+        "Advertising lighting",
+        "Campaign on light pollution",
+        "Street tree biodiversity",
+        "Green Parking Lots",
+        "Wastelands for urban wildlife",
+        "Cemetery Biodiversity Conservation",
+        "Buildings for biodiversity",
+        "Superblock for biodiversity"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Consumo energético",
+      "Ciclos circadianos de especies nocturnas",
+      "Polución lumínica"
+    ],
+    "UbicadoEn": "Áreas urbanas con alta polución lumínica y en proximidad a áreas naturales sensibles",
+    "Proporciona": "Reducción de la polución lumínica, mejor salud de los ecosistemas nocturnos y mayor eficiencia energética."
+  },
+  "urban_ecology_principles": [
+    "Many terrestrial wildlife species are nocturnal, avoiding daytime people and traffic, and respond to diverse changing urban lights."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/SuperblockForBiodiversity",
+  "type": "Nodo",
+  "numero": 18,
+  "escala": "Macro",
+  "contexto": "City",
+  "problema": "Numerous cities have encouraged car-centric development, which has greatly influenced urban planning and led to conflicts between livability and mobility. As a result, infrastructure has been built that occupies a substantial portion of developed areas, as well as urban and natural ecosystems. This has led to an increase in impermeable surfaces, air pollution, and noise levels. Furthermore, this development has diminished safety for pedestrians and wildlife, reduced the habitability of urban spaces, and fostered inactive and unsustainable lifestyles.",
+  "solucion": {
+    "Mitiga": "Mitigates the negative impacts of car-centric infrastructure by prioritizing active transportation and reducing vehicular infrastructure.",
+    "Promueve": "Promotes healthier lifestyles and social interaction by creating sustainable neighborhoods with public spaces.",
+    "Restablece": "Restores connectivity with green and blue infrastructure, supporting the movement and habitation of native species.",
+    "Fomenta": "Fosters pedestrian and wildlife safety by reducing vehicular traffic and enhancing urban livability."
+  },
+  "grafico": "https://drive.google.com/file/d/1Lovm-wdlP8kG0Yx_pwiZEowRPo6PZHJW/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "NIEUWENHUIJSEN M, DE NAZELLE A, PRADAS M C, et al. The Superblock model: A review of an innovative urban model for sustainability, livability, health and well-being."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "SCUDELLARI J, STARICCO L, VITALE BROVARONE E. Implementing the Supermanzana approach in Barcelona. Critical issues at local and urban level."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "BOTH A, GUNN L, HIGGS C, et al. Achieving ‘Active’ 30 Minute Cities: How Feasible Is It to Reach Work within 30 Minutes Using Active Transport Modes?"
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Movilidad urbana",
+      "Infraestructura verde",
+      "Conectividad de especies"
+    ],
+    "InfluyeEn": [
+      "Calidad de vida urbana",
+      "Interacción social",
+      "Habitabilidad urbana"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Soil biodiversity"
+      ],
+      "linkdown": [
+        "Buildings for biodiversity",
+        "Architectural Programming",
+        "Rain Gardens",
+        "Light sensors",
+        "Shielded luminaires",
+        "Sodium vapor lamps",
+        "Campaign on light pollution",
+        "Permeable surfaces"
+      ]
+    },
+    "AfectaA": [
+      "Sustainable urban mobility",
+      "Urban biodiversity",
+      "Public health"
+    ],
+    "EsParteDe": [
+      "Sustainable urban development models",
+      "Green and blue infrastructure networks"
+    ],
+    "UbicadoEn": "Urban neighborhoods seeking to reduce car-centric infrastructure and enhance active transportation.",
+    "Proporciona": "Opportunities for healthier lifestyles, improved biodiversity, and safer public spaces."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/PlantBarriersToDampenArtificialLight",
+  "type": "Nodo",
+  "numero": 20,
+  "escala": "Meso",
+  "contexto": "Streets",
+  "problema": "The lack of vegetation cover on streets and sidewalks reduces the environment's ability to mitigate light pollution. Green spaces, such as parks, gardens, and vegetation belts, act as natural buffers by absorbing and blocking excess artificial light.",
+  "solucion": {
+    "Mitiga": "Mitigates light pollution by using strategically planted vegetation buffers that absorb artificial glare and sustain biodiverse environments.",
+    "Promueve": "Promotes the use of native shrubs and trees with dense canopies to naturally filter excess luminance and support nocturnal wildlife behaviors.",
+    "Fomenta": "Fosters the preservation of natural nocturnal behaviors in wildlife by reducing the stress caused by artificial light."
+  },
+  "grafico": "https://drive.google.com/file/d/1inxx_DntykWsqQbxhcpsaaiY9fkfxmVJ/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "ZHOU C, NAKAMURA A, SONG X, et al. Artificial Light at Night (ALAN) Influences Understory Plant Traits through Ecological Processes: A Two-Year Experiment in a Rubber Plantation in China."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "FALCÓN J, TORRIGLIA A, ATTIA D, et al. Exposure to Artificial Light at Night and the Consequences for Flora, Fauna, and Ecosystems."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Mitigación de la contaminación lumínica",
+      "Conservación de la fauna nocturna",
+      "Vegetación urbana"
+    ],
+    "InfluyeEn": [
+      "Comportamientos nocturnos de la fauna",
+      "Biodiversidad en áreas urbanas",
+      "Calidad de vida urbana"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Lighting restriction in natural areas"
+      ],
+      "linkdown": [
+        "Sodium vapor lamps",
+        "Light sensors",
+        "Shielded luminaires"
+      ]
+    },
+    "AfectaA": [
+      "Ecosistemas urbanos",
+      "Biodiversidad nocturna",
+      "Iluminación urbana"
+    ],
+    "EsParteDe": [
+      "Sistemas de mitigación de contaminación lumínica",
+      "Redes de infraestructura verde urbana"
+    ],
+    "UbicadoEn": "Áreas urbanas donde la contaminación lumínica afecta a la fauna y flora nocturna, especialmente cerca de calles y aceras.",
+    "Proporciona": "Reducción de la contaminación lumínica y preservación de los comportamientos naturales de la fauna nocturna."
+  },
+  "urban_ecology_principles": [
+    "Many terrestrial wildlife species are nocturnal, avoiding daytime people and traffic, and respond to diverse changing urban lights."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/NativePlantsForSpeciesDiversity",
+  "type": "Nodo",
+  "numero": 35,
+  "escala": "Meso",
+  "contexto": "Parks, green urban areas",
+  "problema": "When introduced in urban settings, exotic plant species can become invasive, displacing native species and reducing biodiversity. Their inclusion in urban green spaces may also disproportionately favor certain generalist animal species over more specialized ones. Exotic plants do not provide the same resources, such as food and shelter, as native plant species to urban wildlife. While some native animals may utilize resources from exotic plants, these do not match the habitat and foraging value provided by native plants they have co-evolved with. Increasing the proportion of native plants in urban green spaces promotes higher biodiversity of native urban wildlife.",
+  "solucion": {
+    "Promueve": "Promotes the use of native plant species in urban green spaces to increase biodiversity and provide critical resources for local wildlife.",
+    "Fomenta": "Fosters the conservation of endangered native species by incorporating them into urban greening projects.",
+    "Restablece": "Restores ecological balance by prioritizing native plants, which provide habitat and food for urban wildlife."
+  },
+  "grafico": "https://drive.google.com/file/d/1Ml9yitsyDKO5L2hoKDhXDZThNn4mlEtv/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "LANDI S, TORDONI E, AMICI V, et al. Contrasting patterns of native and non-native plants in a network of protected areas across spatial scales."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "BERTHON K, THOMAS F, BEKESSY S. The role of ‘nativeness’ in urban greening to support animal biodiversity."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Promoción de biodiversidad urbana",
+      "Conservación de especies nativas"
+    ],
+    "InfluyeEn": [
+      "Diversidad de fauna urbana",
+      "Calidad del hábitat en espacios verdes"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Wastelands for urban wildlife",
+        "Tiny forest",
+        "Cemetery Biodiversity Conservation",
+        "Green Parking Lots",
+        "Garden connection"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Biodiversidad urbana",
+      "Conservación de especies en peligro",
+      "Ecosistemas locales"
+    ],
+    "EsParteDe": [
+      "Planes de revegetación urbana",
+      "Estrategias de conservación de biodiversidad"
+    ],
+    "UbicadoEn": "Parques, jardines y áreas verdes urbanas donde se busca aumentar la biodiversidad local.",
+    "Proporciona": "Mayor diversidad de especies nativas, mejores recursos para la fauna urbana y apoyo a la conservación de especies amenazadas."
+  },
+  "urban_ecology_principles": [
+    "Almost all rare native species seem doomed to local extinction due to concentrated human impacts, whereas rare nonnative species may disappear, persist, or spread."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/HydrologicalNetworks",
+  "type": "Nodo",
+  "numero": 2,
+  "escala": "Macro",
+  "contexto": "City, region",
+  "problema": "Urban blue infrastructure faces several challenges, many of them stemming from climate change and city expansion. These include increased risks of flooding and drought. Water pollution occurs due to runoff carrying urban and industrial waste, and there is loss of natural water retention and infiltration capacity in soils due to surface sealing. Additionally, insufficient wastewater treatment, growing demand for water resources, and a lack of coordinated management among stakeholders hinder proper administration of blue infrastructure. Many urban water bodies are seen as problems due to flooding or disease risks, leading to pressure to bury or fill them, resulting in ecological degradation.",
+  "solucion": {
+    "Restablece": "Restores degraded aquatic ecosystems such as wetlands and riverbanks, enhancing their role as suitable habitats for aquatic species.",
+    "Promueve": "Promotes blue infrastructure for flood control and water filtration while providing secondary habitats such as retention wetlands and filter strips to support biodiversity.",
+    "Fomenta": "Fosters connectivity between blue and green infrastructure, creating broader urban ecological networks and improving habitat connectivity for aquatic and terrestrial species.",
+    "Gobierna": "Encourages responsible water use and coordinated management practices among diverse stakeholders to minimize impacts on aquatic biodiversity."
+  },
+  "grafico": "https://drive.google.com/file/d/1jlYTaaHm-kgaPrP2hKb42_o4w0G9oknt/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "WILLIAMS J B, JOSE R, MOOBELA C, et al. Residents’ perceptions of sustainable drainage systems as highly functional blue green infrastructure."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "NGUYEN T T, MEURK C, BENAVIDEZ R, et al. The Effect of Blue-Green Infrastructure on Habitat Connectivity and Biodiversity: A Case Study in the Ōtākaro/Avon River Catchment in Christchurch, New Zealand."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Gestión del agua urbana",
+      "Conectividad ecológica",
+      "Infraestructura azul-verde"
+    ],
+    "InfluyeEn": [
+      "Conservación de biodiversidad acuática",
+      "Calidad del agua",
+      "Control de inundaciones"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Regional Ecological networks"
+      ],
+      "linkdown": [
+        "Rain Gardens",
+        "Artificial wetlands",
+        "Artificial reefs",
+        "Urban ponds",
+        "Improving Lighting",
+        "Lighting restriction in natural areas"
+      ]
+    },
+    "AfectaA": [
+      "Ciclo hidrológico urbano",
+      "Conectividad de especies acuáticas",
+      "Calidad de vida en áreas urbanas"
+    ],
+    "EsParteDe": [
+      "Sistemas de gestión hídrica urbana",
+      "Infraestructura verde y azul"
+    ],
+    "UbicadoEn": "Ciudades y regiones donde se requiere restauración de ecosistemas acuáticos y mejora de la gestión del agua.",
+    "Proporciona": "Control de inundaciones, mejora de la biodiversidad acuática, y mejor gestión de recursos hídricos."
+  },
+  "urban_ecology_principles": [
+    "Many streams, ponds, and wetlands have lowered water levels in a wastewater sewage-system area, and are polluted in a septic-system area containing some defective systems.",
+    "Streams are commonly truncated, channelized, rock/concrete-lined, flashy, in low-flow condition, and/or lost into pipes, all of which limit fish and other aquatic species."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/ArchitecturalProgramming",
+  "type": "Nodo",
+  "numero": 27,
+  "escala": "Meso",
+  "contexto": "Neighborhood",
+  "problema": "Cities are spaces where diverse species coexist, but urban planning often overlooks the needs of non-human species. This oversight has led to significant impacts on biodiversity and urban ecosystems, as well as conflicts between animals and humans. These conflicts include urban wildlife dependency on human-provided food, the endangerment of species, ecosystem degradation, the control of animals deemed as pests, and inadequate management of domestic animals. Furthermore, most cities worldwide lack designated spaces for the movement and interaction of different species and have an absence of urban infrastructure designed to meet the needs of wildlife.",
+  "solucion": {
+    "Promueve": "Promotes the integration of non-human species' needs into architectural activity programs to create multi-species spaces that facilitate biodiversity.",
+    "Fomenta": "Fosters educational initiatives that promote coexistence between species and the city, reducing conflicts and supporting biodiversity conservation.",
+    "Gobierna": "Encourages the revision of architectural programs and urban planning regulations to include the needs and rights of urban wildlife."
+  },
+  "grafico": "https://drive.google.com/file/d/1BXLnaKOA0rovm62bpaqfSBUG_O4t3iRS/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "BEATLEY T, BEKOFF M. City Planning and Animals: Expanding Our Urban Compassion Footprint."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "GUNNELL K, MURPHY B, WILLIAMS C. Design for biodiversity: a technical guide for new and existing buildings."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "GROBMAN Y J, WEISSER W, SHWARTZ A, et al. Architectural Multispecies Building Design: Concepts, Challenges, and Design Process."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Diseño de infraestructura multi-especie",
+      "Planificación urbana inclusiva"
+    ],
+    "InfluyeEn": [
+      "Conservación de biodiversidad urbana",
+      "Interacción humano-fauna",
+      "Prevención de conflictos entre especies"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Buildings for biodiversity",
+        "Superblock for biodiversity"
+      ],
+      "linkdown": [
+        "Cemetery Biodiversity Conservation",
+        "Animal-assisted therapy"
+      ]
+    },
+    "AfectaA": [
+      "Convivencia entre humanos y fauna",
+      "Diversidad de especies urbanas",
+      "Conflictos entre especies"
+    ],
+    "EsParteDe": [
+      "Programas de diseño arquitectónico",
+      "Estrategias urbanas para la biodiversidad"
+    ],
+    "UbicadoEn": "Barrios y vecindarios donde se busca mejorar la integración de especies no humanas en la infraestructura urbana.",
+    "Proporciona": "Infraestructura urbana que apoya la biodiversidad, reducción de conflictos entre especies, y mayor interacción armoniosa entre humanos y fauna."
+  },
+  "urban_ecology_principles": [
+    "Commercial and shopping areas, with concentrated goods, people, food, garbage, and other organic materials, sustain surrounding scavenger and pest populations.",
+    "Many pest insects genetically adapt to heavy pesticide use around kitchens, houses, restaurants, and food markets, as well as standing water."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/AnimalAssistedTherapy",
+  "type": "Nodo",
+  "numero": 28,
+  "escala": "Micro",
+  "contexto": "Facilities",
+  "problema": "Correctional facilities, such as prisons and detention centers, and mental health institutions, including psychiatric hospitals and addiction rehabilitation centers, often lack natural elements that promote restorative justice or patient rehabilitation. In these spaces, green areas are usually considered a luxury rather than a rehabilitation mechanism, and outdoor spaces are often limited to hardscapes devoid of fauna and intentional landscape design.",
+  "solucion": {
+    "Promueve": "Promotes the incorporation of green spaces, sustainability programs, and animal-assisted interventions in correctional and mental health facilities to improve health and behavior.",
+    "Fomenta": "Fosters emotional, vocational, and therapeutic benefits for individuals through interactions with animals and carefully designed healing gardens.",
+    "Gobierna": "Encourages the development of institutional programs that include animal-assisted therapy and the creation of restorative green spaces for rehabilitation."
+  },
+  "grafico": "https://drive.google.com/file/d/1DUtfTRfwfkadtvi6hsB106M5-A08GWGS/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "STEVENS J L, TOEWS B, WAGENFELD A. Designing the Correctional Landscape: An Invitation to Landscape Architecture Professionals."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "DIMITRIJEVIĆ I. Animal-assisted therapy--a new trend in the treatment of children and adults."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "JEWKES Y, MORAN D. The paradox of the ‘green’ prison: Sustaining the environment or sustaining the penal complex?"
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Rehabilitación mediante terapia con animales",
+      "Diseño de espacios verdes restaurativos"
+    ],
+    "InfluyeEn": [
+      "Salud mental de los individuos en instituciones",
+      "Comportamiento y rehabilitación"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Architectural Programming"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Bienestar de los individuos en instituciones",
+      "Ecosistemas dentro de los espacios institucionales"
+    ],
+    "EsParteDe": [
+      "Programas institucionales de rehabilitación",
+      "Sistemas de diseño restaurativo para la salud mental"
+    ],
+    "UbicadoEn": "Instalaciones correccionales y de salud mental donde se buscan intervenciones para mejorar la salud y el bienestar a través del contacto con la naturaleza.",
+    "Proporciona": "Mejora de la salud mental y del comportamiento mediante terapia asistida con animales y espacios verdes diseñados para la reflexión y la restauración."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/CreationOfArtificialMicrohabitats",
+  "type": "Nodo",
+  "numero": 30,
+  "escala": "Meso",
+  "contexto": "Parks, buildings",
+  "problema": "Historically, urban planners and architects have seen animals as pests or threats to eradicate, not as species with which to coexist. This has led to the displacement of native species, as urban expansion has replaced their habitats. Currently, urban 'wildlife' is limited to a few species, resulting in a loss of biodiversity and ecological imbalances that affect both animals and humans.",
+  "solucion": {
+    "Promueve": "Promotes the creation of artificial microhabitats in parks and buildings to support displaced species such as birds, bats, insects, and small vertebrates.",
+    "Fomenta": "Fosters community engagement in building and maintaining modular, replicable microhabitats with eco-friendly materials, ensuring sustainability for native species.",
+    "Restablece": "Restores ecological balance by reinserting displaced species into new urban niches, with habitats specifically designed for their needs."
+  },
+  "grafico": "https://drive.google.com/file/d/1LkRLWdpIPguHulsE6snMo_SgSy8bFPd9/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "CAMPKIN B. Bugs, Bats and Animal Estates: The Architectural Territories of ‘Wild Beasts’."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "GROUP A. Animalesque: Urbanismo de coexistencias."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Diseño de hábitats artificiales",
+      "Reinserción de especies desplazadas"
+    ],
+    "InfluyeEn": [
+      "Diversidad de fauna urbana",
+      "Conservación de especies nativas",
+      "Participación comunitaria"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Urban space for human-animal"
+      ],
+      "linkdown": [
+        "Animal feeding in urban environments",
+        "Artificial wetlands",
+        "Urban ponds",
+        "Rain Gardens",
+        "Artificial reefs",
+        "Roof for pollinator",
+        "Built Surfaces for multi-species cohabitation",
+        "Facades microenvironments",
+        "Garden connection"
+      ]
+    },
+    "AfectaA": [
+      "Conectividad ecológica",
+      "Biodiversidad urbana",
+      "Salud de los ecosistemas urbanos"
+    ],
+    "EsParteDe": [
+      "Redes de infraestructura urbana para la biodiversidad",
+      "Sistemas de microhábitats artificiales"
+    ],
+    "UbicadoEn": "Parques, azoteas, patios y otros espacios urbanos donde se busca restaurar la biodiversidad perdida.",
+    "Proporciona": "Hábitats sostenibles para especies desplazadas, restauración de la biodiversidad y participación comunitaria en la conservación urbana."
+  },
+  "urban_ecology_principles": [
+    "A concentration of numerous tiny and diverse human-made objects creates high microhabitat diversity."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/RoofForPollinator",
+  "type": "Nodo",
+  "numero": 40,
+  "escala": "Meso",
+  "contexto": "Building",
+  "problema": "Innovative and effective strategies are needed to counter the current pollinator decline. Agricultural areas offer poor habitats for pollinators, while cities can provide attractive living spaces, even housing more species than rural areas. Cities must strive to create as many favorable pollinator habitats as possible, providing food resources and nesting sites. There is a correlation between the diversity of flowering plants and the diversity of bee species.",
+  "solucion": {
+    "Promueve": "Promotes the design of green roofs that provide nesting spaces and food resources for pollinators, supporting biodiversity in urban areas.",
+    "Fomenta": "Fosters the installation of supplemental structures, such as sand piles and dead wood, on green roofs to enhance habitats for pollinators like bees and other beneficial species.",
+    "Restablece": "Restores habitat diversity by integrating deeper, fine-grain substrates and floral enhancements on green roofs, increasing pollinator abundance and diversity."
+  },
+  "grafico": "https://drive.google.com/file/d/19M8eW-CJdPdR1ioC60PH8ixiwc6HXTeB/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "SCHEUERMANN R, PAULI M, BUCHHEISTER C. Urban Green Benefits."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "PASSASEO A, PÉTREMAND G, ROCHEFORT S, et al. Pollinator emerging from extensive green roofs: wild bees (Hymenoptera, Antophila) and hoverflies (Diptera, Syrphidae) in Geneva (Switzerland)."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "ISHIMATSU K, ITO K, MITANI Y. Developing Urban Green Spaces and Effective Use of Rooftop Spaces for Cooling and Urban Biodiversity."
+    },
+    {
+      "id": "http://example.org/referencia/4",
+      "texto": "PÉTREMAND G, CHITTARO Y, BRAAKER S, et al. Ground beetle (Coleoptera: Carabidae) communities on green roofs in Switzerland: synthesis and perspectives."
+    },
+    {
+      "id": "http://example.org/referencia/5",
+      "texto": "KRATSCHMER S, KRIECHBAUM M, PACHINGER B. Buzzing on top: Linking wild bee diversity, abundance and traits with green roof qualities."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de polinizadores",
+      "Infraestructura verde urbana"
+    ],
+    "InfluyeEn": [
+      "Diversidad de polinizadores",
+      "Salud de los ecosistemas urbanos",
+      "Conectividad ecológica"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Buildings for biodiversity",
+        "Creation of artificial microhabitats"
+      ],
+      "linkdown": [
+        "Soil biodiversity"
+      ]
+    },
+    "AfectaA": [
+      "Abundancia y diversidad de polinizadores",
+      "Ecosistemas de techos verdes",
+      "Salud de los ecosistemas urbanos"
+    ],
+    "EsParteDe": [
+      "Redes de infraestructura verde urbana",
+      "Sistemas de techos verdes para biodiversidad"
+    ],
+    "UbicadoEn": "Edificios urbanos donde se busca fomentar la biodiversidad mediante la creación de hábitats para polinizadores.",
+    "Proporciona": "Nuevos hábitats para polinizadores, contribuyendo a la conservación de especies y mejorando la biodiversidad urbana."
+  },
+  "urban_ecology_principles": [
+    "More buildings and tall structures create both more habitats and hazards for organisms."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/BuildingsForBiodiversity",
+  "type": "Nodo",
+  "numero": 8,
+  "escala": "Meso",
+  "contexto": "neighborhood",
+  "problema": "The loss of biodiversity, caused by residential, public, and industrial developments, is a key factor in its decline. Urban population growth is expected to increase the demand for housing and infrastructure, exacerbating biodiversity loss. Habitat fragmentation, light pollution, bird collisions with glass surfaces, and noise pollution are among the most significant factors contributing to the impact of these developments on biodiversity.",
+  "solucion": {
+    "Mitiga": "Mitigates biodiversity loss by incorporating enveloping surfaces in buildings to reduce risks and promote species interaction.",
+    "Promueve": "Promotes the integration of biodiversity-friendly solutions, such as sustainable materials and multi-species activity programs, in new constructions.",
+    "Restablece": "Restores ecological balance by enhancing biodiversity through thoughtful material selection and construction practices that minimize environmental impacts."
+  },
+  "grafico": "https://drive.google.com/file/d/1uX8iVljMtrh4WzEJs5LmQ6Cj1jsaaTK-/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "WEISSER W W, HENSEL M, BARATH S, et al. Creating ecologically sound buildings by integrating ecology, architecture, and computational design."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "MARCUS L, PONT M B, BARTHEL S. Towards a socio-ecological spatial morphology: integrating elements of urban morphology and landscape ecology."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "KENSEK K, DING Y, LONGCORE T. GREEN BUILDING AND BIODIVERSITY: FACILITATING BIRD FRIENDLY DESIGN WITH BUILDING INFORMATION MODELS."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Diseño de edificios para biodiversidad",
+      "Conservación de hábitats urbanos"
+    ],
+    "InfluyeEn": [
+      "Interacción entre humanos y especies urbanas",
+      "Conservación de especies nativas",
+      "Reducción de impactos en la biodiversidad"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Regional Ecological networks",
+        "Superblock for biodiversity"
+      ],
+      "linkdown": [
+        "Garden connection",
+        "Architectural Programming",
+        "Built Surfaces for multi-species cohabitation",
+        "Roof for pollinator",
+        "Facades microenvironments",
+        "Glass for birds",
+        "Sodium vapor lamps",
+        "Light sensors",
+        "Shielded luminaires"
+      ]
+    },
+    "AfectaA": [
+      "Conectividad ecológica urbana",
+      "Diversidad de especies en entornos construidos",
+      "Salud de los ecosistemas urbanos"
+    ],
+    "EsParteDe": [
+      "Estrategias de construcción sostenible",
+      "Planes urbanos para la conservación de biodiversidad"
+    ],
+    "UbicadoEn": "Vecindarios y áreas urbanas donde la construcción puede contribuir a la conservación de la biodiversidad.",
+    "Proporciona": "Soluciones arquitectónicas sostenibles que reducen los impactos en la biodiversidad y fomentan la cohabitación de múltiples especies."
+  },
+  "urban_ecology_principles": [
+    "Within a house plot, concentrating diverse land uses, maintenance regimes, and tiny structures commonly increases species richness well above that in a nearby natural area.",
+    "A block of highly diverse and ever-changing house plots is ecologically tied together by some repetitive plantings/land uses, plus green street side and back-boundary corridors."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/ButterflyGarden",
+  "type": "Nodo",
+  "numero": 38,
+  "escala": "Micro",
+  "contexto": "houses, gardens, balcony",
+  "problema": "The extinction of butterflies is driven by the destruction and transformation of natural environments into urbanized and agricultural areas. This is exacerbated by the homogenization of the landscape and loss of biodiversity. Various anthropogenic activities contribute to this decline, including the loss of peatlands and wet meadows, increased mowing frequency, and excessive use of fertilizers, which contaminates soil and disrupts butterfly larval development.",
+  "solucion": {
+    "Promueve": "Promotes the creation of butterfly gardens in urban settings to conserve and recover butterfly species by including host plants that provide food, shelter, and reproduction sites.",
+    "Fomenta": "Fosters the formation of interconnected green spaces in cities, including gardens, balconies, and terraces, to support butterfly habitats and create a network of biodiversity corridors.",
+    "Restablece": "Restores butterfly populations by ensuring the presence of native plants essential for larval development and reproduction in urban environments."
+  },
+  "grafico": "https://drive.google.com/file/d/1yOjWugHbs6W70SxNKKaOY4nXr8fTdDL4/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "CHRISTIAN HABEL J, ULRICH W, GROS P, et al. Butterfly loss in urban landscapes and nature reserves."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "GUERRERO-LEIVA N, CERDA C, BIDEGAIN I. Residential sidewalk gardens and biological conservation in the cities: Motivations and preferences that guide the floristic composition of a little-explored space."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "KAJZER-BONK J, NOWICKI P. Vanishing meadows — Quantitative analysis of factors driving population declines of endangered butterflies."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de mariposas",
+      "Creación de jardines urbanos"
+    ],
+    "InfluyeEn": [
+      "Diversidad de mariposas",
+      "Conectividad de hábitats urbanos",
+      "Recuperación de especies polinizadoras"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Wastelands for urban wildlife",
+        "Cemetery Biodiversity Conservation",
+        "Garden connection"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Polinización urbana",
+      "Recuperación de mariposas",
+      "Conectividad ecológica"
+    ],
+    "EsParteDe": [
+      "Redes de jardines urbanos interconectados",
+      "Estrategias de conservación de mariposas en áreas urbanas"
+    ],
+    "UbicadoEn": "Casas, jardines y balcones en áreas urbanas donde se busca apoyar la biodiversidad mediante la creación de hábitats para mariposas.",
+    "Proporciona": "Hábitats para la conservación de mariposas, contribuyendo a la recuperación de especies polinizadoras y a la biodiversidad urbana."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/RegionalEcologicalNetworks",
+  "type": "Nodo",
+  "numero": 1,
+  "escala": "Macro",
+  "contexto": "region",
+  "problema": "Traditional territorial planning has prioritized land use, zoning, transportation, infrastructure, and economics while undervaluing ecological impacts and natural landscapes. Urban-rural divisions disregard the biomes cities occupy, rupturing interconnected ecological systems. Moreover, urban planning delimits boundaries absent of biome distributions and ecosystem connectivity, frequently sacrificing biodiversity for development. The lack of municipal conservation strategies enables incremental ecosystem disruption from encroaching cities.",
+  "solucion": {
+    "Mitiga": "Mitigates habitat fragmentation by establishing regional ecological networks that connect urban and rural biomes, strengthening connectivity between habitat patches and facilitating wildlife transit.",
+    "Promueve": "Promotes urban planning that prioritizes biodiversity protection and integrates ecological corridors as part of development plans to maintain ecosystem connectivity.",
+    "Gobierna": "Encourages collaboration with urban developers and local authorities to implement biodiversity-sensitive urban design practices and protect biodiversity across planning stages."
+  },
+  "grafico": "https://drive.google.com/file/d/1Gjw_azP54-Tg7KLpnUxxHdnl03eGHe2E/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "CONNERY K. Biodiversity and Urban Design: Seeking an Integrated Solution."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "XU W, WANG J, ZHANG M, et al. Construction of landscape ecological network based on landscape ecological risk assessment in a large-scale opencast coal mine area."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "GARRARD G E, WILLIAMS N S G, MATA L, et al. Biodiversity Sensitive Urban Design."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de corredores ecológicos",
+      "Conectividad de biomas urbanos y rurales"
+    ],
+    "InfluyeEn": [
+      "Planificación urbana y rural",
+      "Conservación de biodiversidad regional",
+      "Movilidad de especies"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Hydrological networks"
+      ],
+      "linkdown": [
+        "Improving Lighting",
+        "Greenway corridors",
+        "Biodiversity patches",
+        "Buildings for biodiversity"
+      ]
+    },
+    "AfectaA": [
+      "Ecosistemas regionales",
+      "Conectividad ecológica",
+      "Flujos de biodiversidad entre zonas urbanas y rurales"
+    ],
+    "EsParteDe": [
+      "Redes ecológicas regionales",
+      "Planes de conservación y conectividad biológica"
+    ],
+    "UbicadoEn": "Regiones que abarcan tanto zonas urbanas como rurales, donde se requiere conectividad ecológica y la preservación de corredores de biodiversidad.",
+    "Proporciona": "Corredores ecológicos que facilitan la conectividad y movilidad de especies entre biomas urbanos y rurales, promoviendo la conservación de la biodiversidad."
+  },
+  "urban_ecology_principles": [
+    "Suburbs are filters of flows/movements between rural and city areas, and also key sources of flows affecting both areas."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/ArtificialWetlands",
+  "type": "Nodo",
+  "numero": 10,
+  "escala": "Macro",
+  "contexto": "city, region",
+  "problema": "Marine and continental wetlands are biodiversity hotspots that offer a wide array of ecosystem services, such as preserving biodiversity, purifying water, replenishing groundwater, controlling floods, stabilizing coastlines, protecting against storms, sequestering carbon, and mitigating and adapting to climate change. However, wetlands have been severely threatened by surrounding development and urban expansion, prioritizing economic growth over preservation.",
+  "solucion": {
+    "Mitiga": "Mitigates the loss of wetlands by promoting the construction of artificial wetlands, which serve as landscape infrastructure for wastewater treatment, flood control, and biodiversity habitat creation.",
+    "Promueve": "Promotes the integration of artificial wetlands into urban planning as cost-effective solutions for water management, stormwater control, and habitat creation for wildlife.",
+    "Restablece": "Restores ecological balance by using artificial wetlands to foster biodiversity, create new wildlife corridors, and integrate them into urban recreational networks."
+  },
+  "grafico": "https://drive.google.com/file/d/1m_VxLuNdmh0fDmT8jrbp1ldcWboo_FDi/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "STEFANAKIS A. The Role of Constructed Wetlands as Green Infrastructure for Sustainable Urban Water Management."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "XIA J, ZHANG Y, XIONG L, et al. Opportunities and challenges of the Sponge City construction related to urban water issues in China."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "MAO D, WANG Z, WU J, et al. China’s wetlands loss to urban expansion."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de humedales artificiales",
+      "Gestión de aguas pluviales"
+    ],
+    "InfluyeEn": [
+      "Biodiversidad urbana",
+      "Control de inundaciones",
+      "Purificación de aguas urbanas"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Hydrological networks",
+        "Creation of artificial microhabitats"
+      ],
+      "linkdown": [
+        "Permeable surfaces"
+      ]
+    },
+    "AfectaA": [
+      "Conectividad ecológica urbana",
+      "Calidad del agua",
+      "Creación de hábitats para fauna"
+    ],
+    "EsParteDe": [
+      "Infraestructura verde para la gestión de aguas",
+      "Redes de humedales urbanos"
+    ],
+    "UbicadoEn": "Ciudades y regiones donde se necesita una gestión integrada de aguas pluviales y la creación de hábitats para biodiversidad.",
+    "Proporciona": "Soluciones sostenibles para la gestión del agua, la conservación de la biodiversidad y la creación de corredores de vida silvestre."
+  },
+  "urban_ecology_principles": [
+    "Wetlands are scarce, often due to former farmer activity, and typically contain locally uncommon species tolerant of human disturbance.",
+    "Many streams, ponds, and wetlands have lowered water levels in a wastewater sewage-system area, and are polluted in a septic-system area containing some defective systems."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/TinyForest",
+  "type": "Nodo",
+  "numero": 23,
+  "escala": "Meso",
+  "contexto": "city",
+  "problema": "The scarcity of native green spaces, coupled with the loss of biodiversity and natural habitats, along with the population's disconnection from nature, create unhealthy urban environments. There is a need to increase carbon sequestration through urban green spaces while reducing urban system vulnerability to natural disasters. Current reforestation methods are often slow and ineffective in restoring native green spaces.",
+  "solucion": {
+    "Promueve": "Promotes the creation of tiny forests based on the Miyawaki method, which grows forests faster and with greater biodiversity, creating urban wildlife spaces and improving environmental health.",
+    "Fomenta": "Fosters community involvement in the creation and maintenance of tiny forests to restore native biodiversity, reduce air pollution, and provide educational opportunities for ecological awareness.",
+    "Restablece": "Restores native vegetation and animal species through dense planting of native tree species, improving biodiversity and ecological resilience in urban environments."
+  },
+  "grafico": "https://drive.google.com/file/d/1rhJsTJT2AOYAfZceUdp9FHNlpZmpiA86/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "MIYAWAKI A. Restoration of living environment based on vegetation ecology: Theory and practice."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "EGERER M, SUDA M. Designing “Tiny Forests” as a lesson for transdisciplinary urban ecology learning."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "MIYAWAKI A. Restoration of urban green environments based on the theories of vegetation ecology."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Restauración de biodiversidad nativa",
+      "Creación de espacios verdes urbanos"
+    ],
+    "InfluyeEn": [
+      "Calidad del aire",
+      "Resiliencia urbana",
+      "Reducción del impacto de desastres naturales"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Biodiversity patches"
+      ],
+      "linkdown": [
+        "Native plants for species diversity",
+        "Strategic placement of resilient trees",
+        "Preserving dead trees",
+        "Permeable surfaces",
+        "Soil biodiversity",
+        "Urban space for human-animal"
+      ]
+    },
+    "AfectaA": [
+      "Conectividad ecológica",
+      "Mitigación de desastres naturales",
+      "Reducción de la contaminación del aire"
+    ],
+    "EsParteDe": [
+      "Estrategias urbanas para mejorar la biodiversidad",
+      "Proyectos de reforestación urbana acelerada"
+    ],
+    "UbicadoEn": "Áreas urbanas donde se requiere restauración de espacios verdes nativos para mejorar la biodiversidad y la calidad de vida.",
+    "Proporciona": "Pequeñas áreas forestales que apoyan la biodiversidad, mejoran la calidad del aire y brindan refugios para la fauna urbana."
+  },
+  "urban_ecology_principles": [
+    "Strategically located tree plantings, e.g., in parks, help reduce most air pollutants, locally improving air quality."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/UrbanWildlifeBehavior",
+  "type": "Nodo",
+  "numero": 4,
+  "escala": "Macro",
+  "contexto": "region",
+  "problema": "Urban environments have dramatically altered the survival, reproduction, and communication habits of the species they host, compelling them to adapt to disturbances caused by human activity. Artificial shelters, such as roofs, pipes, and urban structures, have replaced natural habitats, while trees and green spaces serve as gathering points for urban biodiversity. Noise and light pollution disrupt communication mechanisms and nocturnal habits in many species.",
+  "solucion": {
+    "Promueve": "Promotes urban planning that considers both ecosystem needs and species behaviors, with a focus on creating spaces that respect the specific characteristics of urban wildlife.",
+    "Fomenta": "Fosters community engagement in monitoring urban biodiversity and participating in ecosystem restoration, as well as conducting educational campaigns to raise awareness about the benefits of cohabitation.",
+    "Mitiga": "Mitigates the impact of noise, light pollution, and inadequate waste management on urban wildlife by promoting better urban planning and habitat protection strategies."
+  },
+  "grafico": "https://drive.google.com/file/d/1DLMpQaZFmhCMonwh3a1X6zlnW2HRtMor/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "LOWRY H, LILL A, WONG B B M. Behavioural responses of wildlife to urban environments."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "MAGLE S B, FIDINO M, LEHRER E W, et al. Advancing urban wildlife research through a multi‐city collaboration."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "MAGLE S B, HUNT V M, VERNON M, et al. Urban wildlife research: Past, present, and future."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación del comportamiento de la fauna urbana",
+      "Reducción de la contaminación acústica y lumínica"
+    ],
+    "InfluyeEn": [
+      "Adaptación de especies urbanas",
+      "Interacciones entre humanos y fauna urbana",
+      "Reducción de conflictos entre humanos y fauna"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Regional Ecological networks"
+      ],
+      "linkdown": [
+        "Urban space for human-animal",
+        "Citizen science to monitor biodiversity",
+        "Improving Lighting"
+      ]
+    },
+    "AfectaA": [
+      "Movimientos y hábitos de la fauna urbana",
+      "Redes tróficas urbanas",
+      "Adaptación genética de especies urbanas"
+    ],
+    "EsParteDe": [
+      "Estrategias de planificación urbana para la biodiversidad",
+      "Proyectos de monitoreo de fauna urbana"
+    ],
+    "UbicadoEn": "Regiones urbanas donde se busca mitigar el impacto de la actividad humana en el comportamiento y hábitos de la fauna.",
+    "Proporciona": "Estrategias de manejo y planificación para la protección del comportamiento de especies urbanas, promoviendo la coexistencia entre humanos y fauna."
+  },
+  "urban_ecology_principles": [
+    "Pipes and streets facilitate widespread pest movement between and into buildings.",
+    "Genetic adaptation and differentiation include urban-rural population divergence, while selective forces include pollution, human-provided food, and low-frequency noise."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/PermeableSurfaces",
+  "type": "Nodo",
+  "numero": 19,
+  "escala": "Micro",
+  "contexto": "neighborhood",
+  "problema": "Pavements, which account for 30 to 45% of urban surfaces, have been linked to reduced permeability, causing recurring problems in cities. Impermeable surfaces alter hydrological cycles by preventing water infiltration and increasing runoff, heightening the risk of flooding and aquatic habitat degradation.",
+  "solucion": {
+    "Mitiga": "Mitigates flooding and water pollution by promoting the use of permeable surfaces, such as porous pavements and tiles, which facilitate water infiltration and reduce the concentration of pollutants reaching urban water bodies.",
+    "Promueve": "Promotes the implementation of permeable surfaces in urban planning to restore natural water cycles and enhance urban resilience to flooding.",
+    "Fomenta": "Fosters the use of permeable materials in urban spaces to improve water quality and reduce the negative impact on aquatic habitats and biodiversity."
+  },
+  "grafico": "https://drive.google.com/file/d/141_eo2y7skPd1wA0B-G0sCQdrkIHQgP4/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "DREELIN E A, FOWLER L, RONALD CARROLL C. A test of porous pavement effectiveness on clay soils during natural storm events."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "LIU Y, LI T, PENG H. A new structure of permeable pavement for mitigating urban heat island."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "LIU J, BORST M. Performances of metal concentrations from three permeable pavement infiltrates."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Gestión de aguas pluviales",
+      "Reducción del riesgo de inundaciones",
+      "Restauración del ciclo hidrológico natural"
+    ],
+    "InfluyeEn": [
+      "Calidad del agua",
+      "Reducción de la contaminación de cuerpos de agua urbanos",
+      "Biodiversidad acuática"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Rain Gardens",
+        "Tiny forest",
+        "Green Parking Lots",
+        "Street tree biodiversity",
+        "Wastelands for urban wildlife",
+        "Garden connection",
+        "Cemetery Biodiversity Conservation",
+        "Artificial wetlands",
+        "Urban ponds",
+        "Superblock for biodiversity"
+      ],
+      "linkdown": [
+        "Soil biodiversity"
+      ]
+    },
+    "AfectaA": [
+      "Ciclo del agua urbana",
+      "Hábitats acuáticos urbanos",
+      "Conectividad ecológica"
+    ],
+    "EsParteDe": [
+      "Estrategias urbanas para la gestión de aguas pluviales",
+      "Infraestructura verde para la restauración de ciclos hidrológicos"
+    ],
+    "UbicadoEn": "Áreas urbanas que requieren soluciones para mejorar la infiltración de agua y reducir el riesgo de inundaciones.",
+    "Proporciona": "Superficies permeables que ayudan a controlar las aguas pluviales y mejoran la calidad del agua en los cuerpos de agua urbanos."
+  },
+  "urban_ecology_principles": [
+    "Porous low-organic-matter soils, characteristic of fill sites, predominate near roads, streets, and buildings."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/RainGardens",
+  "type": "Nodo",
+  "numero": 12,
+  "escala": "Macro",
+  "contexto": "city",
+  "problema": "Urbanization and population growth in cities present significant challenges for urban water systems. The construction and development of urban areas create impervious surfaces that prevent rainwater infiltration, increasing stormwater runoff and degrading water quality in rivers and streams. Additionally, the lack of restoring natural hydrology in urbanized watersheds and the absence of contaminant treatment contribute to the negative impacts on urban hydrological cycles.",
+  "solucion": {
+    "Mitiga": "Mitigates stormwater runoff and water pollution by capturing and storing rainwater in rain gardens, thus improving water quality and reducing flood risks.",
+    "Promueve": "Promotes the use of rain gardens to restore natural hydrological processes in urban areas, enhance biodiversity, and provide additional environmental benefits such as carbon sequestration and cooling through green infrastructure.",
+    "Fomenta": "Fosters the creation of rain gardens in public and private spaces to manage stormwater, reduce heat island effects, and improve the quality of urban life through green spaces."
+  },
+  "grafico": "https://drive.google.com/file/d/1o2QPGVGo7pFtfdJ0t__eitRGzU7hq148/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "IFTEKHAR M S, ZHANG F, POLYAKOV M, et al. Non-market values of water sensitive urban designs: A case study on rain gardens."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "YUAN J, DUNNETT N, STOVIN V. The influence of vegetation on rain garden hydrological performance."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "MCGAULEY M W, AMUR A, SHAKYA M, et al. A Complete Water Balance of a Rain Garden."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Gestión de aguas pluviales",
+      "Reducción del riesgo de inundaciones",
+      "Restauración de procesos hidrológicos naturales"
+    ],
+    "InfluyeEn": [
+      "Calidad del agua",
+      "Reducción de la contaminación de cuerpos de agua urbanos",
+      "Biodiversidad en áreas urbanas"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Hydrological networks",
+        "Street tree biodiversity",
+        "Green Parking Lots",
+        "Creation of artificial microhabitats",
+        "Superblock for biodiversity"
+      ],
+      "linkdown": [
+        "Permeable surfaces"
+      ]
+    },
+    "AfectaA": [
+      "Ciclo hidrológico urbano",
+      "Reducción de contaminantes en cuerpos de agua",
+      "Infraestructura verde urbana"
+    ],
+    "EsParteDe": [
+      "Estrategias de infraestructura verde para la gestión de aguas pluviales",
+      "Soluciones basadas en la naturaleza para la biodiversidad urbana"
+    ],
+    "UbicadoEn": "Zonas urbanas donde se busca gestionar aguas pluviales y restaurar procesos hidrológicos naturales.",
+    "Proporciona": "Espacios verdes multifuncionales que reducen el riesgo de inundaciones, mejoran la calidad del agua y crean hábitats para la biodiversidad urbana."
+  },
+  "urban_ecology_principles": [
+    "Stormwater runoff, which cleans urban surfaces and is piped or ditched to stream, pond, or wetland, causes pulses or fluctuations in water levels and pollutant concentrations."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/BiodiversityPatches",
+  "type": "Nodo",
+  "numero": 7,
+  "escala": "Meso",
+  "contexto": "parks, green areas",
+  "problema": "The systematic destruction of certain habitats in the past has led to the elimination of many species from vast areas, relegating them to remnant or small vegetation patches. This phenomenon has resulted in severe isolation due to the lack of species exchange in urban and agricultural areas. In this context, it is crucial to identify and manage ecological corridors and habitat patches to form a network structure that facilitates species dispersal.",
+  "solucion": {
+    "Mitiga": "Mitigates the isolation of species by conserving and restoring habitat patches within urban areas, thus increasing species dispersal opportunities.",
+    "Promueve": "Promotes the use of wooded patches and artificial habitats to increase native species diversity in urban environments.",
+    "Fomenta": "Fosters biodiversity conservation by protecting even small habitat patches, which contribute to species richness and the survival of native plants and animals.",
+    "Restablece": "Restores habitat connectivity between fragmented patches to support species movement and ecosystem stability."
+  },
+  "grafico": "https://drive.google.com/file/d/1rQ5oplKWhfvrJZ0_dMqbRZ2VmUPy--VN/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "WINTLE B A, KUJALA H, WHITEHEAD A, et al. Global synthesis of conservation studies reveals the importance of small habitat patches for biodiversity."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "RIVA F, FAHRIG L. The disproportionately high value of small patches for biodiversity conservation."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "HOBBS E R. Species richness of urban forest patches and implications for urban landscape diversity."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de biodiversidad",
+      "Conectividad ecológica",
+      "Control de fragmentación de hábitats"
+    ],
+    "InfluyeEn": [
+      "Distribución de especies",
+      "Estabilidad de ecosistemas",
+      "Intercambio de especies entre áreas urbanas"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Regional Ecological networks"
+      ],
+      "linkdown": [
+        "Wastelands for urban wildlife",
+        "Tiny forest",
+        "Cemetery Biodiversity Conservation",
+        "Green Parking Lots",
+        "Garden connection"
+      ]
+    },
+    "AfectaA": [
+      "Biodiversidad urbana",
+      "Conectividad de hábitats",
+      "Ecosistemas fragmentados"
+    ],
+    "EsParteDe": [
+      "Redes ecológicas regionales",
+      "Estrategias de conectividad urbana"
+    ],
+    "UbicadoEn": "Zonas urbanas y verdes fragmentadas donde es necesario conservar la biodiversidad y aumentar la conectividad.",
+    "Proporciona": "Hábitats críticos para especies amenazadas y conectividad entre áreas naturales fragmentadas."
+  },
+  "urban_ecology_principles": [
+    "The distribution of greenspaces, even tiny, within a built area has a strong effect on urban heat, water flows, and species movement."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/PreservingDeadTrees",
+  "type": "Nodo",
+  "numero": 37,
+  "escala": "Micro",
+  "contexto": "Parks",
+  "problema": "Urban green spaces are the primary habitats for wildlife in cities. In these urban ecosystems, sequential processes of species' life and death occur, which are sometimes altered by the aesthetic perceptions of human beings. An example of this is dead trees, which are often removed under the justification of representing a danger to people or simply due to aesthetic preferences, without understanding the benefits they provide to urban biodiversity.",
+  "solucion": {
+    "Mitiga": "Mitigates biodiversity loss by preserving dead trees, which serve as habitats for species reliant on decomposing wood.",
+    "Promueve": "Promotes awareness of the ecological importance of dead wood in sustaining diverse urban wildlife, such as fungi, insects, and lichens.",
+    "Fomenta": "Fosters increased biodiversity through the conservation of dead trees and their ecological functions in urban green spaces.",
+    "Gobierna": "Encourages governance frameworks that support the management of dead wood in public parks to enhance urban biodiversity."
+  },
+  "grafico": "https://drive.google.com/file/d/1qSBE9nfkuwLBUMuv-HPkKZC9sYFfA63J/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "KORHONEN A, SIITONEN J, KOTZE D J, et al. Stand characteristics and dead wood in urban forests: Potential biodiversity hotspots in managed boreal landscapes."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "PARAJULI R, MARKWITH S H. Quantity is foremost but quality matters: A global meta-analysis of correlations of dead wood volume and biodiversity in forest ecosystems."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "FRÖHLICH A, CIACH M. Dead tree branches in urban forests and private gardens are key habitat components for woodpeckers in a city matrix."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de biodiversidad",
+      "Conectividad ecológica",
+      "Manejo de espacios verdes"
+    ],
+    "InfluyeEn": [
+      "Sostenibilidad de ecosistemas",
+      "Preservación de especies dependientes de madera muerta"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Wastelands for urban wildlife",
+        "Tiny forest",
+        "Cemetery Biodiversity Conservation",
+        "Garden connection"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Diversidad de especies en parques urbanos",
+      "Fauna dependiente de madera en descomposición"
+    ],
+    "EsParteDe": [
+      "Estrategias de conservación en áreas verdes urbanas",
+      "Manejo de parques para biodiversidad"
+    ],
+    "UbicadoEn": "Parques urbanos donde se preservan árboles muertos para fomentar la biodiversidad.",
+    "Proporciona": "Hábitats para especies como hongos, insectos y aves que dependen de madera en descomposición."
+  },
+  "urban_ecology_principles": [
+    "Despite considerable tree mortality, dead trees, branches, and logs, along with their associated fauna, are normally scarce due to human removal."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/SoilBiodiversity",
+  "type": "Nodo",
+  "numero": 5,
+  "escala": "Macro",
+  "contexto": "city",
+  "problema": "Soil biodiversity, which constitutes 25% of total biodiversity, is a crucial reservoir of life that harbors a wide array of species, including millipedes, moles, earthworms, ants, mites, springtails, protozoa, nematodes, bacteria, and fungi. However, human activities such as the replacement of natural soil, creation of impermeable surfaces, compaction, pollution, habitat fragmentation, heavy metal-laden runoff, and the formation of heat islands are detrimentally impacting this biodiversity.",
+  "solucion": {
+    "Mitiga": "Mitigates soil biodiversity loss by avoiding soil sealing and conserving plant-soil systems in various urban settings.",
+    "Promueve": "Promotes the preservation and expansion of plant-soil systems in yards, gardens, parks, and other green urban spaces to support diverse soil species.",
+    "Fomenta": "Fosters the regeneration of soil biota through the preservation of leaf litter, promoting water infiltration and pollutant retention.",
+    "Gobierna": "Encourages governance practices that integrate soil conservation into urban planning and landscape management to ensure long-term sustainability."
+  },
+  "grafico": "https://drive.google.com/file/d/1eaW66QH-Bw-kTpdavpPmNqp6ge4VjQv4/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "GUILLAND C, MARON P A, DAMAS O, et al. Biodiversity of urban soils for sustainable cities."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "SUN X, LIDDICOAT C, TIUNOV A, et al. Harnessing soil biodiversity to promote human health in cities."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "GEISEN S, WALL D H, VAN DER PUTTEN W H. Challenges and Opportunities for Soil Biodiversity in the Anthropocene."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de la biodiversidad del suelo",
+      "Manejo de suelos en espacios verdes urbanos",
+      "Infraestructura verde urbana"
+    ],
+    "InfluyeEn": [
+      "Ciclos hidrológicos urbanos",
+      "Calidad del aire",
+      "Sostenibilidad de ecosistemas urbanos"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Facades microenvironments",
+        "Roof for pollinator",
+        "Greenway corridors",
+        "Permeable surfaces",
+        "Tiny forest",
+        "Cemetery Biodiversity Conservation",
+        "Garden connection"
+      ],
+      "linkdown": [
+        "Superblock for biodiversity"
+      ]
+    },
+    "AfectaA": [
+      "Calidad del agua y aire",
+      "Ciclos de nutrientes en el suelo",
+      "Hábitat de especies del suelo"
+    ],
+    "EsParteDe": [
+      "Estrategias de conservación de biodiversidad en entornos urbanos",
+      "Manejo integral de ecosistemas urbanos"
+    ],
+    "UbicadoEn": "Suelos urbanos en jardines, parques, y áreas verdes que promueven la biodiversidad del suelo.",
+    "Proporciona": "Hábitats para organismos del suelo que mejoran la infiltración de agua y la retención de contaminantes."
+  },
+  "urban_ecology_principles": [
+    "Porous low-organic-matter soils, characteristic of fill sites, predominate near roads, streets, and buildings.",
+    "Low organic matter in widespread fill, plus soil compaction by former construction or present human activity, strongly limits the growth of woody plants."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/GreenParkingLots",
+  "type": "Nodo",
+  "numero": 25,
+  "escala": "Meso",
+  "contexto": "neighborhood",
+  "problema": "The urban heat island phenomenon is characterized by higher temperatures in cities due to a greater proportion of impermeable surfaces and limited natural ground cover. These factors diminish evapotranspiration and air circulation while increasing the storage and transfer of heat from materials to the surrounding air. Parking lots, typically constructed using vast expanses of impermeable concrete or asphalt, exacerbate this phenomenon. These surfaces amplify runoff and lack vegetation, such as trees, shrubs, and flowers, which would otherwise contribute to the filtration and purification of rainwater. Furthermore, excessive lighting in these areas intensifies light pollution and further elevates urban temperatures. Consequently, parking lots are transformed into barren, activity-deprived wastelands for both wildlife and human beings alike.",
+  "solucion": {
+    "Mitiga": "Mitigates the urban heat island effect by implementing permeable surfaces and vegetation in parking lots.",
+    "Promueve": "Promotes the integration of green spaces, rain gardens, and trees to increase shading, improve water filtration, and reduce runoff.",
+    "Fomenta": "Fosters community engagement through temporary activities in parking lots and improves the environment for both people and wildlife.",
+    "Gobierna": "Encourages governance frameworks that support the inclusion of green infrastructure in parking lot designs, ensuring sustainable urban development."
+  },
+  "grafico": "https://drive.google.com/file/d/1ktORhxVOMU0Pnoj-zZcEzrR1ooKfK-Dw/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "ONISHI A, CAO X, ITO T, et al. Evaluating the potential for urban heat-island mitigation by greening parking lots."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "PARISON S, CHAUMONT M, KOUNKOU-ARNAUD R, et al. The effects of greening a parking lot as a heat mitigation strategy."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "BOUZOUIDJA R, LECONTE F, KISS M, et al. Experimental Comparative Study between Conventional and Green Parking Lots."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Superficies impermeables",
+      "Calidad del aire",
+      "Gestión del agua pluvial"
+    ],
+    "InfluyeEn": [
+      "Reducción de la temperatura urbana",
+      "Mejora del hábitat urbano",
+      "Control de la contaminación lumínica"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Biodiversity patches"
+      ],
+      "linkdown": [
+        "Native plants for species diversity",
+        "Strategic placement of resilient trees",
+        "Permeable surfaces",
+        "Sodium vapor lamps",
+        "Light sensors",
+        "Shielded luminaires",
+        "Rain Gardens"
+      ]
+    },
+    "AfectaA": [
+      "Temperatura de las superficies urbanas",
+      "Flujos hidrológicos urbanos",
+      "Biodiversidad urbana"
+    ],
+    "EsParteDe": [
+      "Estrategias de mitigación de la isla de calor urbano",
+      "Infraestructura verde urbana"
+    ],
+    "UbicadoEn": "Estacionamientos en barrios residenciales y comerciales, integrados con soluciones de infraestructura verde.",
+    "Proporciona": "Reducción de la temperatura, mejora del manejo del agua, y oportunidades para la biodiversidad en áreas previamente impermeables."
+  },
+  "urban_ecology_principles": [
+    "Water quantity (or hydrologic flow) and flooding of streams and rivers commonly increase with the proportion of developed land in upstream or headwater areas.",
+    "Widespread high soil pH from water running across concrete or mortar surfaces differentially affects mineral nutrient availability, growth of organisms, and species present."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/CitizenScienceToMonitorBiodiversity",
+  "type": "Nodo",
+  "numero": 17,
+  "escala": "Meso",
+  "contexto": "Parks, Green areas, city",
+  "problema": "Pollution, habitat loss, invasive species, climate change, and other anthropogenic pressures have altered the composition and diversity of biological communities, endangering humanity's survival. The lack of knowledge about the magnitude of these impacts on biodiversity has become apparent, leading to planning problems that affect basic necessities such as food supply, medicine, climate regulation, crop pollination, and other ecosystem and cultural services provided by biodiversity.",
+  "solucion": {
+    "Promueve": "Promotes collaboration between scientists and citizens to gather large-scale data necessary for species monitoring.",
+    "Fomenta": "Encourages citizen awareness and education on biodiversity conservation by involving them in monitoring efforts.",
+    "Gobierna": "Supports the implementation of citizen science as a cost-effective method to influence biodiversity planning and conservation strategies."
+  },
+  "grafico": "https://drive.google.com/file/d/11zMUDcUgjxVuKyUdsnRKUTuH7TxP9uwq/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "HERMY M, CORNELIS J. Towards a monitoring method and a number of multifaceted and hierarchical biodiversity indicators for urban and suburban parks."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "CALLAGHAN C T, OZEROFF I, HITCHCOCK C, et al. Capitalizing on opportunistic citizen science data to monitor urban biodiversity."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "CORNELIS J, HERMY M. Biodiversity relationships in urban and suburban parks in Flanders."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Monitoreo de la biodiversidad",
+      "Conciencia ciudadana"
+    ],
+    "InfluyeEn": [
+      "Planificación urbana",
+      "Conservación de la biodiversidad",
+      "Educación ciudadana"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Urban wildlife behavior"
+      ],
+      "linkdown": []
+    },
+    "EsParteDe": [
+      "Estrategias de monitoreo de biodiversidad urbana",
+      "Enfoques de ciencia ciudadana"
+    ],
+    "UbicadoEn": "Áreas verdes urbanas y parques donde las comunidades colaboran con científicos para monitorear la biodiversidad.",
+    "Proporciona": "Datos a gran escala y concienciación ciudadana sobre la conservación de la biodiversidad, integrando a los ciudadanos como actores clave en los procesos de monitoreo y restauración."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/AnimalFeedingInUrbanEnvironments",
+  "type": "Nodo",
+  "numero": 44,
+  "escala": "Micro",
+  "contexto": "homes, park, city",
+  "problema": "Although most species have been negatively impacted by human activities in the environment, some have adapted to urban areas, benefiting from the available food and shelter. This liminal fauna has adjusted its behavior to coexist with urban conditions, leading to problems such as property damage and the transmission of pathogens to humans and their pets, which has fostered conflictual encounters. These changes in dietary habits are further exacerbated by the negligent mishandling of waste and the direct feeding of wildlife by some individuals. As a result, the atypical behavioral modifications exhibited by these species create imbalances in ecosystems.",
+  "solucion": {
+    "Fomenta": "Encourages proper waste management and feeding pets indoors to prevent attracting wildlife.",
+    "Mitiga": "Reduces wildlife dependence on anthropogenic food sources and minimizes conflicts between humans and wildlife.",
+    "Promueve": "Promotes recognizing wild species as inhabitants of urban ecosystems to foster biodiversity conservation."
+  },
+  "grafico": "https://drive.google.com/file/d/1phJsSZdXHh-hNYvDrm2rgWYtI_hWeEVf/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "PLAZA P I, LAMBERTUCCI S A. How are garbage dumps impacting vertebrate demography, health, and conservation?"
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "CIUCCI P, MANCINELLI S, BOITANI L, et al. Anthropogenic food subsidies hinder the ecological role of wolves: Insights for conservation of apex predators in human-modified landscapes."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "SOTILLO A, BAERT J M, MÜLLER W, et al. Weather- and human-related shifts in feeding conditions promote the use of built-up areas by an avian opportunist."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Urban wildlife behavior",
+      "Gestión de residuos"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Creation of artificial microhabitats",
+        "Street tree biodiversity"
+      ],
+      "linkdown": []
+    },
+    "UbicadoEn": "Entornos urbanos donde la fauna interactúa con humanos y sus actividades, como parques, hogares y áreas urbanas.",
+    "Proporciona": "Manejo adecuado de alimentos y residuos para reducir los conflictos entre humanos y fauna urbana, además de preservar la biodiversidad."
+  },
+  "urban_ecology_principles": [
+    "Hospitals, veterinaries, zoos, structures with food, and human wastewater greatly enrich microbial diversity and ecology."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/ArtificialReefs",
+  "type": "Nodo",
+  "numero": 9,
+  "escala": "Meso",
+  "contexto": "city",
+  "problema": "Coral reefs, one of the oldest and most diverse ecosystems on the planet, provide ecosystem services, including climate disaster mitigation, carbon sequestration, water and air purification, and food production that contributes to the health and well-being of populations. However, these ecosystems face numerous threats, including natural events like typhoons and hurricanes, rising water temperatures due to climate change, dredging of channels and ports, vessel grounding and anchoring, and destructive practices like dynamite fishing. These factors severely damage coral reefs, whose slow growth processes hinder recovery. As a result, there is a decrease in fishery resources and alterations in trophic networks.",
+  "solucion": {
+    "Restablece": "Restores coral reef ecosystems through artificial reef technologies like Biorock reefs and 3D-printed structures.",
+    "Promueve": "Promotes collaboration between scientists and local communities to enhance coral reef restoration efforts.",
+    "Mitiga": "Mitigates the loss of coral reef biodiversity by providing alternative habitats and structures that support ecosystem recovery."
+  },
+  "grafico": "https://drive.google.com/file/d/1vaLM48-rtu-hLK9Sfy67GxF7P23ea3hp/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "BARTON J A, WILLIS B L, HUTSON K S. Coral propagation: a review of techniques for ornamental trade and reef restoration."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "VARDI T, HOOT W C, LEVY J, et al. Six priorities to advance the science and practice of coral reef restoration worldwide."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "JAAP W C. Coral reef restoration."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación marina",
+      "Restauración de ecosistemas",
+      "Manejo de arrecifes artificiales"
+    ],
+    "InfluyeEn": [
+      "Conservación de biodiversidad marina",
+      "Restauración de redes tróficas"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Hydrological networks",
+        "Creation of artificial microhabitats"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Hábitats de especies marinas",
+      "Ecosistemas coralinos en recuperación"
+    ],
+    "EsParteDe": [
+      "Estrategias de restauración de arrecifes",
+      "Manejo de infraestructura azul para biodiversidad"
+    ],
+    "UbicadoEn": "Ambientes costeros y marinos donde los arrecifes de coral están amenazados por actividades humanas y naturales.",
+    "Proporciona": "Hábitat alternativo para especies marinas, promoviendo la biodiversidad y fortaleciendo los ecosistemas de arrecifes."
+  },
+  "urban_ecology_principles": [
+    "Urban streams and rivers, or estuary and sea, normally clean an urban area by carrying away numerous types of solid waste and chemical pollution."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/FacadesMicroenvironments",
+  "type": "Nodo",
+  "numero": 41,
+  "escala": "Meso",
+  "contexto": "Building",
+  "problema": "Rapid urban densification is reducing green spaces, increasing air pollution from reduced contaminant capture. Accelerated urbanization also contributes to the urban heat island effect, rising temperatures, and loss of natural habitats, leading to declining native species. Moreover, predominant impervious urban surfaces fail to capture rainfall, generating flooding. Lacking vegetation for shade or insulation, cities increasingly rely on artificial heating/cooling systems, exacerbating noise pollution.",
+  "solucion": {
+    "Mitiga": "Mitigates urban heat island effect and air pollution by incorporating green facades that provide cooling shade, absorb pollutants, and release oxygen.",
+    "Promueve": "Promotes biodiversity by creating microenvironments suitable for various species through stratified facades with native plants.",
+    "Fomenta": "Fosters human health and immune function by exposing inhabitants to diverse urban microbiomes and improving air quality.",
+    "Gobierna": "Encourages governance frameworks that prioritize the installation and management of green facades in urban building codes."
+  },
+  "grafico": "https://drive.google.com/file/d/1QdfXWTT9sOkaG2xkwQpcgUPZQS9guoW_/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "EBSCOhost | 162218099 | Designing Biodiverse High-Rise Façade Microbiomes for Healthy Urban Environments."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "LUNDHOLM J T. Spontaneous dynamics and wild design in green roofs."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "EL MENSHAWY A S, MOHAMED A F, FATHY N M. A comparative study on green wall construction systems, case study: South valley campus of AASTMT."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Mitigación del calor urbano",
+      "Control de contaminación",
+      "Creación de hábitats urbanos"
+    ],
+    "InfluyeEn": [
+      "Sostenibilidad urbana",
+      "Biodiversidad microbiana",
+      "Conservación de especies en fachadas"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Buildings for biodiversity",
+        "Creation of artificial microhabitats"
+      ],
+      "linkdown": [
+        "Soil biodiversity"
+      ]
+    },
+    "AfectaA": [
+      "Control de temperatura en edificios",
+      "Mejora de la calidad del aire",
+      "Reducción de escorrentía"
+    ],
+    "EsParteDe": [
+      "Estrategias de infraestructura verde urbana",
+      "Diseño ecológico de edificios"
+    ],
+    "UbicadoEn": "Edificios en áreas urbanas densas, donde la instalación de fachadas verdes puede mitigar la contaminación y mejorar la biodiversidad.",
+    "Proporciona": "Microhábitats para especies urbanas, mejoras en la calidad del aire y la temperatura, y un ambiente urbano más saludable."
+  },
+  "urban_ecology_principles": [
+    "Green roofs (vegetation covered) and green walls help reduce urban heat buildup, stormwater runoff, and air pollution locally within an urban area."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/CampaignOnLightPollution",
+  "type": "Nodo",
+  "numero": 14,
+  "escala": "Macro",
+  "contexto": "City",
+  "problema": "The lack of awareness and understanding of light pollution leads to inefficient and harmful lighting practices that disrupt biological cycles, cause energy waste, and contribute to the loss of night sky visibility. This limited comprehension of the issue hinders the implementation of mitigation measures that promote responsible actions towards urban wildlife and resource sustainability.",
+  "solucion": {
+    "Mitiga": "Mitigates the harmful effects of light pollution by increasing public awareness and promoting responsible lighting practices.",
+    "Promueve": "Promotes the adoption of sustainable lighting alternatives and educates the public on the effects of light pollution on wildlife and human health.",
+    "Fomenta": "Fosters community engagement in monitoring light pollution and supports policies to regulate light emissions.",
+    "Gobierna": "Encourages the development of policies and regulations to control urban light emissions and protect urban wildlife."
+  },
+  "grafico": "https://drive.google.com/file/d/1GeM6F2jef8pVbFy5-G1j2t-jLeZp2W4x/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "DOMINONI D M. Ecological Effects of Light Pollution: How Can We Improve Our Understanding Using Light Loggers on Individual Animals?"
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "Kaushik, K., Nair, S., & Ahamad, A. Studying light pollution as an emerging environmental concern in India."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Control de la contaminación lumínica",
+      "Protección de fauna urbana nocturna"
+    ],
+    "InfluyeEn": [
+      "Reducción de emisiones de luz",
+      "Conservación de ciclos circadianos"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Superblock for biodiversity"
+      ],
+      "linkdown": [
+        "Sodium vapor lamps",
+        "Light sensors",
+        "Shielded luminaires"
+      ]
+    },
+    "AfectaA": [
+      "Ciclos biológicos de animales nocturnos",
+      "Conservación de energía y reducción de la contaminación"
+    ],
+    "EsParteDe": [
+      "Estrategias de control de la contaminación urbana",
+      "Regulación del uso de la luz artificial en ciudades"
+    ],
+    "UbicadoEn": "Áreas urbanas con altos niveles de contaminación lumínica, donde se requiere la educación y regulación sobre el uso de la luz.",
+    "Proporciona": "Conocimiento público sobre los efectos de la contaminación lumínica y soluciones para minimizar su impacto."
+  },
+  "urban_ecology_principles": [
+    "Many terrestrial wildlife species are nocturnal, avoiding daytime people and traffic, and respond to diverse changing urban lights."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/AdvertisingLighting",
+  "type": "Nodo",
+  "numero": 15,
+  "escala": "Meso",
+  "contexto": "Building",
+  "problema": "Inadequate regulation of advertising lighting fails to set appropriate limits on the intensity, direction, and duration of light emitted by illuminated signs, billboards, and neon displays. Consequently, these elements often emit intense light that spreads beyond their target area, invading public and private spaces. This intrusive light can have negative impacts, such as disorienting and disturbing urban wildlife, as well as affecting human health and well-being by disrupting sleep patterns and causing visual discomfort.",
+  "solucion": {
+    "Mitiga": "Mitigates the negative effects of excessive advertising lighting by establishing limits on light intensity and direction.",
+    "Promueve": "Promotes the regulation of lighting standards for advertising signs to reduce light pollution and its impact on wildlife and human health.",
+    "Fomenta": "Fosters public awareness of the effects of advertising lighting and encourages turning off or dimming lights during night hours.",
+    "Gobierna": "Encourages the development of policies that regulate the use of lighting in advertising to protect urban ecosystems."
+  },
+  "grafico": "https://drive.google.com/file/d/1FhRpIDJyQ4KilkIwMo0ICNAOQFE821Us/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "HÖLKER F, BOLLIGER J, DAVIES T W, et al. 11 Pressing Research Questions on How Light Pollution Affects Biodiversity."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "Nakamura-Garcia, M. T., & Ríos-Chelén, A. A. More than noise: Light, moon phase, and singing behavior in a passerine."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Regulación de la contaminación lumínica",
+      "Protección de la fauna urbana nocturna"
+    ],
+    "InfluyeEn": [
+      "Reducción de la contaminación lumínica",
+      "Mejora en la salud visual y el bienestar humano"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Improving Lighting"
+      ],
+      "linkdown": [
+        "Sodium vapor lamps",
+        "Light sensors",
+        "Shielded luminaires"
+      ]
+    },
+    "AfectaA": [
+      "Calidad de vida humana",
+      "Fauna urbana nocturna"
+    ],
+    "EsParteDe": [
+      "Estrategias de control de contaminación lumínica",
+      "Normativas urbanas sobre el uso de la iluminación en publicidad"
+    ],
+    "UbicadoEn": "Edificios y áreas urbanas con publicidad iluminada excesiva.",
+    "Proporciona": "Reducción de la contaminación lumínica y protección de la fauna urbana a través de normativas de iluminación."
+  },
+  "urban_ecology_principles": [
+    "Many terrestrial wildlife species are nocturnal, avoiding daytime people and traffic, and respond to diverse changing urban lights."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/ImprovingLighting",
+  "type": "Nodo",
+  "numero": 3,
+  "escala": "Macro",
+  "contexto": "City",
+  "problema": "The widespread use of electric lighting, driven by urbanization, industry, and transportation networks, disrupts the natural cycles of urban and natural ecosystems. Approximately 18% of the Earth's surface is affected by light pollution, manifested in phenomena such as light trespass, overlighting, and sky glow. These issues interfere with the ability of birds and animals to navigate during migration, feeding, and mating. For plants, light serves as a cue for seasonal variation, defining their circadian rhythms and photosynthesis processes. Excessive nighttime lighting also hinders the atmosphere's recovery from air pollution and diminishes the visibility of the night sky. While nocturnal illumination is essential, the lack of planning, high levels of waste, and poor practices are the primary causes of light pollution.",
+  "solucion": {
+    "Mitiga": "Mitigates light pollution by implementing lighting measures that reduce sky glow, light trespass, and overlighting.",
+    "Promueve": "Promotes responsible lighting practices that consider the ecological impacts on both wildlife and plant life by adjusting light intensity and direction.",
+    "Fomenta": "Fosters the use of energy-efficient lighting systems that provide appropriate illumination only where and when needed.",
+    "Gobierna": "Encourages policy frameworks and urban planning strategies aimed at reducing unnecessary light emissions and supporting biodiversity conservation."
+  },
+  "grafico": "https://drive.google.com/file/d/1SKDCV82g-vsxJv1AqOAsRNA77I7-_bjL/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "BENNIE J, DAVIES T W, CRUSE D, et al. Ecological effects of artificial light at night on wild plants."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "LUGINBUHL C B, BOLEY P A, DAVIS D R. The impact of light source spectral power distribution on sky glow."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "GASTON K J, DUFFY J P, BENNIE J. Quantifying the erosion of natural darkness in the global protected area system."
+    },
+    {
+      "id": "http://example.org/referencia/4",
+      "texto": "Dark Sky Association. Guides and How-Tos: Lighting Principles."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Reducción de la contaminación lumínica",
+      "Optimización del consumo energético"
+    ],
+    "InfluyeEn": [
+      "Conservación de la biodiversidad nocturna",
+      "Salud de los ecosistemas urbanos"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [],
+      "linkdown": [
+        "Lighting restriction in natural areas",
+        "Advertising lighting",
+        "Campaign on light pollution"
+      ]
+    },
+    "AfectaA": [
+      "Biodiversidad nocturna",
+      "Ecosistemas urbanos",
+      "Salud humana y animal"
+    ],
+    "EsParteDe": [
+      "Estrategias para la reducción de la contaminación lumínica",
+      "Planes de iluminación urbana sostenible"
+    ],
+    "UbicadoEn": "Zonas urbanas afectadas por contaminación lumínica y problemas de sobreiluminación.",
+    "Proporciona": "Iluminación eficiente y responsable que minimiza los impactos negativos en la biodiversidad y mejora la calidad de vida urbana."
+  },
+  "urban_ecology_principles": [
+    "Many terrestrial wildlife species are nocturnal, avoiding daytime people and traffic, and respond to diverse changing urban lights."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/GreenwayCorridors",
+  "type": "Nodo",
+  "numero": 6,
+  "escala": "Macro",
+  "contexto": "city",
+  "problema": "Habitat fragmentation due to urban expansion, the lack of ecological corridors, and insufficient integration of green areas into city design hinder the mobility and interaction of flora and fauna. This disconnection disrupts the natural flow of energy, nutrients, and organisms, impacting the resilience and health of urban ecosystems. Furthermore, the lack of connectivity between green spaces limits the ecosystem services they provide, such as microclimate regulation, air filtration, and noise reduction.",
+  "solucion": {
+    "Mitiga": "Mitigates habitat fragmentation by establishing wide greenway corridors that enhance the connectivity between urban green spaces.",
+    "Promueve": "Promotes the safe movement of flora and fauna by creating connected greenbelts that serve as migration routes and nesting habitats.",
+    "Gobierna": "Encourages governance strategies that prioritize the integration of green corridors into urban planning and infrastructure development."
+  },
+  "grafico": "https://drive.google.com/file/d/1q15FzowVa9xnBY6TQSBANtkhk9wzaeJy/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "Lynch, A. J. (2019). Creating Effective Urban Greenways and Stepping-stones: Four Critical Gaps in Habitat Connectivity Planning Research. Journal of Planning Literature, 34(2), 131–155."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "TRAVERS E, HÄRDTLE W, MATTHIES D. Corridors as a tool for linking habitats – Shortcomings and perspectives for plant conservation. Journal for Nature Conservation, 2021, 60: 125974."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conectividad ecológica",
+      "Preservación de especies urbanas"
+    ],
+    "InfluyeEn": [
+      "Movilidad de especies",
+      "Calidad del aire",
+      "Reducción de ruido"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Regional Ecological networks"
+      ],
+      "linkdown": [
+        "Street tree biodiversity",
+        "Artificial wetlands",
+        "Urban ponds",
+        "Soil biodiversity",
+        "Urban space for human-animal",
+        "Wildlife crossings"
+      ]
+    }
+  },
+  "urban_ecology_principles": []
+},
+  {
+  "id": "http://example.org/nodo/LightingRestrictionInNaturalAreas",
+  "type": "Nodo",
+  "numero": 13,
+  "escala": "Meso",
+  "contexto": "region",
+  "problema": "Excessive artificial lighting negatively impacts natural reserves and their ecosystems. It disrupts the behavioral cycles of both aquatic and terrestrial fauna due to light pollution. This problem is further aggravated by a lack of awareness about the need to establish clear boundaries between urban zones and protected areas.",
+  "solucion": {
+    "Mitiga": "Mitigates the negative effects of artificial lighting on wildlife by establishing lighting restrictions in natural reserves and surrounding buffer zones.",
+    "Promueve": "Promotes the creation of dark sky preserves and the minimization of light encroachment into sensitive ecosystems, especially wetlands and migration paths.",
+    "Gobierna": "Encourages governance frameworks that regulate lighting installations near natural areas to protect nocturnal wildlife and maintain ecological integrity."
+  },
+  "grafico": "https://drive.google.com/file/d/12BDCtHDbssfjQx4SuOfCdZIOJgquSDZB/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "Kaushik, K., Nair, S., & Ahamad, A. (2022). Studying light pollution as an emerging environmental concern in India."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "CZAJA M, KOŁTON A. How light pollution can affect spring development of urban trees and shrubs."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Regulación de la contaminación lumínica",
+      "Protección de fauna nocturna",
+      "Conservación de áreas naturales"
+    ],
+    "InfluyeEn": [
+      "Ciclos de comportamiento de especies nocturnas",
+      "Calidad del hábitat en áreas naturales protegidas"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Greenway corridors",
+        "Improving Lighting"
+      ],
+      "linkdown": [
+        "Plant barriers to dampen artificial light"
+      ]
+    },
+    "AfectaA": [
+      "Ecosistemas acuáticos y terrestres en áreas naturales",
+      "Comportamiento de especies migratorias"
+    ],
+    "EsParteDe": [
+      "Estrategias de conservación en áreas protegidas",
+      "Planes de mitigación de la contaminación lumínica en regiones naturales"
+    ],
+    "UbicadoEn": "Áreas naturales protegidas y zonas de amortiguamiento adyacentes, con restricciones de iluminación artificial.",
+    "Proporciona": "Protección del hábitat nocturno para especies dependientes de ciclos naturales de luz y oscuridad."
+  },
+  "urban_ecology_principles": [
+    "Many terrestrial wildlife species are nocturnal, avoiding daytime people and traffic, and respond to diverse changing urban lights."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/CemeteryBiodiversityConservation",
+  "type": "Nodo",
+  "numero": 24,
+  "escala": "Meso",
+  "contexto": "city",
+  "problema": "The increasing pressure on urban green spaces has highlighted the underutilization of the ecological potential of cemeteries. These areas are seldom recognized for their value in environmental conservation and the provision of ecosystem services. Current management lacks a comprehensive vision that balances historical and cultural value with environmental concerns, resulting in a lack of awareness regarding their significance in preserving biodiversity.",
+  "solucion": {
+    "Mitiga": "Mitigates biodiversity loss by transforming cemeteries into urban biodiversity hotspots, integrating them into green infrastructure as wildlife corridors.",
+    "Promueve": "Promotes differentiated management, from wildflower meadows to forest regeneration, preserving old trees and allowing natural processes to enhance biodiversity.",
+    "Fomenta": "Fosters peaceful urban wildlife refuges by limiting disturbances and reducing intensive lawn management.",
+    "Gobierna": "Encourages governance frameworks that balance historical, cultural, and ecological management of cemeteries to enhance urban biodiversity."
+  },
+  "grafico": "https://drive.google.com/file/d/19vVwks_txmv82TkaNwqNGzSjGVJVWk-r/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "SWENSEN G. Between romantic historic landscapes, rational management models and obliterations – urban cemeteries as green memory sites."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "SALLAY Á, TAR I G, MIKHÁZI Z, et al. The Role of Urban Cemeteries in Ecosystem Services and Habitat Protection."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "STRAKA T M, MISCHO M, PETRICK K J S, et al. Urban Cemeteries as Shared Habitats for People and Nature: Reasons for Visit, Comforting Experiences of Nature, and Preferences for Cultural and Natural Features."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conservación de la biodiversidad",
+      "Infraestructura verde urbana",
+      "Gestión diferenciada de áreas verdes"
+    ],
+    "InfluyeEn": [
+      "Dispersión de especies",
+      "Regeneración de ecosistemas urbanos"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Biodiversity patches",
+        "Architectural Programming"
+      ],
+      "linkdown": [
+        "Native plants for species diversity",
+        "Strategic placement of resilient trees",
+        "Preserving dead trees",
+        "Butterfly garden",
+        "Permeable surfaces",
+        "Sodium vapor lamps",
+        "Light sensors",
+        "Shielded luminaires",
+        "Soil biodiversity",
+        "Urban space for human-animal",
+        "Vegetation for noise attenuation"
+      ]
+    },
+    "AfectaA": [
+      "Protección de especies urbanas en peligro",
+      "Regulación del microclima urbano",
+      "Conservación de la biodiversidad en espacios culturales"
+    ],
+    "EsParteDe": [
+      "Estrategias de conservación de biodiversidad urbana",
+      "Gestión sostenible de espacios culturales y verdes"
+    ],
+    "UbicadoEn": "Cementerios urbanos con enfoque de conservación de la biodiversidad y provisión de servicios ecosistémicos.",
+    "Proporciona": "Hábitats urbanos para especies en peligro, servicios ecosistémicos y refugios tranquilos para la fauna urbana."
+  },
+  "urban_ecology_principles": [
+    "Dissimilar large greenspaces in a city contain most of the interior and uncommon native species, and are major sources for species dispersal within the city."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/GardenConnection",
+  "type": "Nodo",
+  "numero": 26,
+  "escala": "Meso",
+  "contexto": "Town",
+  "problema": "Land fragmentation is often carried out without considering its impact on ecosystems. Such territorial divisions promote the fragmentation of natural habitats since the lack of connectivity between green areas on properties hinders ecological continuity.",
+  "solucion": {
+    "Mitiga": "Mitigates habitat fragmentation by maintaining large, contiguous green spaces that enable botanical and biological diversity to flourish across generations.",
+    "Promueve": "Promotes urban planning policies that prevent the subdivision of large gardens, preserving vital refuges for endangered urban wildlife.",
+    "Fomenta": "Fosters community building around shared green infrastructure, such as apartment courtyards with native plantings.",
+    "Gobierna": "Encourages governance frameworks that protect contiguous green spaces and prevent fragmentation, enhancing urban biodiversity conservation."
+  },
+  "grafico": "https://drive.google.com/file/d/1WLoXl6F-okai10wUIp0AYVx8mYfix00g/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "KOS K, BUJOCZEK M, BUJOCZEK L. How do the features of individual gardens affect bird diversity in rural-suburban areas?"
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "Lynch, A. J. Creating Effective Urban Greenways and Stepping-stones: Four Critical Gaps in Habitat Connectivity Planning Research."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conectividad ecológica",
+      "Gestión territorial",
+      "Conservación de fauna urbana"
+    ],
+    "InfluyeEn": [
+      "Preservación de hábitats naturales",
+      "Resiliencia de la biodiversidad urbana"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Wildlife corridors",
+        "Biodiversity patches",
+        "buildings for biodiversity",
+        "Creation of artificial microhabitats"
+      ],
+      "linkdown": [
+        "Native plants for species diversity",
+        "Strategic placement of resilient trees",
+        "Preserving dead trees",
+        "Butterfly garden",
+        "Permeable surfaces",
+        "Soil biodiversity",
+        "Vegetation for noise attenuation"
+      ]
+    },
+    "AfectaA": [
+      "Conectividad ecológica en áreas urbanas",
+      "Conservación de especies amenazadas"
+    ],
+    "EsParteDe": [
+      "Estrategias de conservación urbana",
+      "Planificación territorial y ecológica"
+    ],
+    "UbicadoEn": "Grandes jardines y espacios verdes urbanos, evitando la fragmentación de terrenos para preservar la conectividad ecológica.",
+    "Proporciona": "Refugio vital para la fauna urbana, conectividad entre áreas verdes y preservación de la biodiversidad."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/BuiltSurfacesForMultiSpeciesCohabitation",
+  "type": "Nodo",
+  "numero": 39,
+  "escala": "Micro",
+  "contexto": "building",
+  "problema": "The urban landscape, with its vast size, complex configurations, sprawling extent, and massive built environment, views biodiversity as a passive by-product of design rather than considering cities as integral parts of natural ecosystems. Driven by an anthropocentric approach, impermeable constructed surfaces fragment and isolate habitats, disrupting ecological networks and obstructing the free movement of animal and plant species in urban areas. The built environment stands as a primary driver of biodiversity loss in cities. Although endangered species may enjoy legal protection, their habitats face fragmentation and isolation due to the pressures of densification. Laws safeguarding nature and habitats fail to account for their complexity and fragility. Although many habitats receive protection, critical corridors essential for animal and plant mobility do not receive the same consideration. Development encroaching on or near ecological networks creates movement barriers for non-human animals, severely compromising these networks. Current planning and design, centered only on human needs, produces impermeable structures that restrict species' free passage through the landscape. Modifying built surfaces to facilitate interaction between interior spaces and ecosystems could resolve many of the aforementioned issues.",
+  "solucion": {
+    "Mitiga": "Mitigates habitat fragmentation by transforming built surfaces into conduits for species movement and cohabitation.",
+    "Promueve": "Promotes multi-species building designs that incorporate green roofs, walls, and habitat spaces for urban wildlife.",
+    "Fomenta": "Fosters the integration of non-human species in the planning and design phases of buildings, ensuring their needs are met.",
+    "Gobierna": "Encourages governance frameworks that require the inclusion of biodiversity-enhancing features in all new urban developments."
+  },
+  "grafico": "https://drive.google.com/file/d/1n7H34siy2CwQHcCOyj01Sb74ndLaAMv7/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "GROBMAN Y J, WEISSER W, SHWARTZ A, et al. Architectural Multispecies Building Design: Concepts, Challenges, and Design Process."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "SELVAN S U, SAROGLOU S T, JOSCHINSKI J, et al. Toward multi-species building envelopes: A critical literature review of multi-criteria decision-making for design support."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Fragmentación del hábitat",
+      "Movilidad de especies urbanas",
+      "Diseño urbano y biodiversidad"
+    ],
+    "InfluyeEn": [
+      "Conectividad ecológica en áreas urbanas",
+      "Resiliencia de la biodiversidad urbana"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "buildings for biodiversity",
+        "Creation of artificial microhabitats"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Flujos ecológicos en áreas construidas",
+      "Conservación de especies en entornos urbanos"
+    ],
+    "EsParteDe": [
+      "Infraestructura verde integrada en edificios",
+      "Diseño urbano con enfoque multi-especies"
+    ],
+    "UbicadoEn": "Superficies construidas como fachadas, techos verdes y espacios adaptados en edificios urbanos.",
+    "Proporciona": "Corredores de hábitat y cohabitación para especies urbanas en áreas construidas."
+  },
+  "urban_ecology_principles": [
+    "Residential high rises, low rises, single units, courtyard/patio houses, and informal squatter housing in a city serve as differing sources, sinks, and repellents for species movement."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/GlassForBirds",
+  "type": "Nodo",
+  "numero": 42,
+  "escala": "Micro",
+  "contexto": "buildings, houses",
+  "problema": "Increasing human development and construction replaces birds' natural habitats with construction featuring large glass surfaces. This escalates collision risks for both resident and migratory birds. Collisions of birds with glass surfaces on houses, buildings, bus shelters, and other structures represent a major source of human-caused bird mortality. Higher collision risks have been documented in rural versus urban areas, possibly owing to greater bird abundance in less populated zones. Additionally, attracting birds towards windows through feeders, bird baths, and ornamental vegetation increases bird density near glass, thus elevating collision rates. Reflections in glass windows often confuse birds, leading them to crash into surfaces they perceive as open space. Particularly hazardous are those featuring reflections of natural scenery and skies. Despite the growing availability of products designed to mitigate this issue, such as glass with etched patterns, markers, and adhesive films, broader implementation and field-testing of such deterrent strategies remains necessary.",
+  "solucion": {
+    "Mitiga": "Mitigates bird collisions by avoiding transparent glass and using materials or patterns that alert birds to obstacles.",
+    "Promueve": "Promotes the use of UV-coated, etched, or laminated glass to enhance bird visibility.",
+    "Fomenta": "Fosters a safer urban environment for birds by reducing nocturnal lighting and strategically placing vegetation away from windows.",
+    "Gobierna": "Encourages governance policies that regulate the use of bird-safe building materials, particularly in areas with high bird activity."
+  },
+  "grafico": "https://drive.google.com/file/d/1cIuEO_vmLJ4ngBfPXHuc6W6ubOSNtcxW/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "ZYŚK-GORCZYŃSKA E, SKÓRKA P, ŻMIHORSKI M. Graffiti saves birds: A year-round pattern of bird collisions with glass bus shelters."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "DANIEL KLEM Jr. Collisions between Birds and Windows: Mortality and Prevention."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Colisiones de aves",
+      "Superficies de vidrio",
+      "Protección de fauna urbana"
+    ],
+    "InfluyeEn": [
+      "Seguridad de aves en entornos urbanos",
+      "Reducción de la mortalidad de aves"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "buildings for biodiversity"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Movilidad de aves migratorias",
+      "Conservación de aves en entornos urbanos"
+    ],
+    "EsParteDe": [
+      "Diseño urbano amigable con la biodiversidad",
+      "Soluciones para reducir impactos en la fauna urbana"
+    ],
+    "UbicadoEn": "Fachadas de edificios, casas y otras superficies con riesgo de colisión para aves.",
+    "Proporciona": "Reducción de colisiones de aves con superficies de vidrio en entornos urbanos."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/LightSensors",
+  "type": "Nodo",
+  "numero": 32,
+  "escala": "Micro",
+  "contexto": "architecture",
+  "problema": "Excessive waste, lack of planning, and poor lighting practices in both public and private spaces are the primary causes of light pollution. These issues can be tackled through simple behavioral changes and the implementation of low-cost technologies.",
+  "solucion": {
+    "Mitiga": "Mitigates light pollution by using motion sensors and timers to reduce unnecessary illumination.",
+    "Promueve": "Promotes the adoption of energy-saving technologies to benefit both humans and urban wildlife by allowing natural light cycles.",
+    "Fomenta": "Fosters more sustainable lighting practices through the introduction of simple, cost-effective sensor technologies.",
+    "Gobierna": "Encourages governance and policies supporting the use of light sensors in public and private spaces to limit light pollution."
+  },
+  "grafico": "https://drive.google.com/file/d/11voFQQqtQGriFOT_Tw5N3msT32zzuLpE/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "Kaushik, K., Nair, S., & Ahamad, A. (2022). Studying light pollution as an emerging environmental concern in India. Journal of Urban Management."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "BACHANEK K H, TUNDYS B, WIŚNIEWSKI T, et al. Intelligent Street Lighting in a Smart City Concepts—A Direction to Energy Saving in Cities: An Overview and Case Study."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Contaminación lumínica",
+      "Gestión energética",
+      "Ciclos circadianos en la fauna"
+    ],
+    "InfluyeEn": [
+      "Reducción de consumo energético",
+      "Mejora de las prácticas de iluminación",
+      "Conservación de ecosistemas urbanos"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Plant barriers to dampen artificial light",
+        "Advertising lighting",
+        "Campaign on light pollution",
+        "Street tree biodiversity",
+        "Green Parking Lots",
+        "Wastelands for urban wildlife",
+        "Cemetery Biodiversity Conservation",
+        "Buildings for biodiversity",
+        "Superblock for biodiversity"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Ciclos circadianos de animales urbanos",
+      "Uso eficiente de energía en la ciudad"
+    ],
+    "EsParteDe": [
+      "Estrategias de ahorro energético",
+      "Soluciones para la reducción de contaminación lumínica"
+    ],
+    "UbicadoEn": "Zonas urbanas y espacios arquitectónicos con alto uso de iluminación artificial.",
+    "Proporciona": "Reducción de la contaminación lumínica y el consumo energético a través del uso de sensores de movimiento y temporizadores."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/UrbanSpaceForHumanAnimal",
+  "type": "Nodo",
+  "numero": 16,
+  "escala": "Meso",
+  "contexto": "city",
+  "problema": "Humans and animals have a long history of interaction in urban settings. Many species struggle to adapt to cities, leading to conflict with humans over basic resources like food and shelter. Urban animals often face persecution, including capture, killing, or confinement in captive environments like zoos and inadequate shelters, hindering their evolution. The lack of human empathy and understanding towards these animals' needs worsens the situation.",
+  "solucion": {
+    "Mitiga": "Mitigates human-animal conflict by creating inclusive urban spaces that accommodate both species' needs.",
+    "Promueve": "Promotes the design of parks, public spaces, and infrastructure that enable healthy coexistence between humans and animals.",
+    "Fomenta": "Fosters interspecies empathy and respect through education, collaborative design, and flexible policies that allow more shared urban spaces.",
+    "Gobierna": "Encourages governance that recognizes animals as part of the urban environment, implementing sterilization programs and regulations that support safe human-animal interaction."
+  },
+  "grafico": "https://drive.google.com/file/d/1DasVvGxoxGpA8IqNA2F0MsyqUZWhmfYE/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "ABUSAADA H, ELSHATER A. Building Sustainable Habitats for Free-Roaming Cats in Public Spaces: A Systematic Literature Review."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "INSTONE L, SWEENEY J. The trouble with dogs: ‘animaling’ public space in the Australian city."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "CAI H, DUAN W. Changing Perceptions and Uses of 'Companion Animal' Public and Pseudo-Public Spaces in Cities during COVID-19 Pandemic: The Case of Beijing."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Convivencia humano-animal",
+      "Diseño de espacios públicos",
+      "Integración multispecies en la ciudad"
+    ],
+    "InfluyeEn": [
+      "Salud y bienestar animal y humano",
+      "Reducción de conflictos urbanos",
+      "Conservación de fauna urbana"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Urban wildlife behavior",
+        "Greenway corridors",
+        "Street tree biodiversity",
+        "Wastelands for urban wildlife",
+        "Tiny forest",
+        "Cemetery Biodiversity Conservation"
+      ],
+      "linkdown": [
+        "Creation of artificial microhabitats",
+        "Wildlife crossings",
+        "Reducing Wildlife-Vehicle Collisions",
+        "Vegetation for noise attenuation"
+      ]
+    },
+    "AfectaA": [
+      "Salud y bienestar de especies urbanas",
+      "Reducción de conflictos entre humanos y animales"
+    ],
+    "EsParteDe": [
+      "Modelos de convivencia multispecies en la ciudad",
+      "Diseño urbano inclusivo para fauna y humanos"
+    ],
+    "UbicadoEn": "Parques y espacios urbanos diseñados para la interacción de humanos y animales.",
+    "Proporciona": "Áreas de convivencia saludable para humanos y animales, reduciendo el conflicto y promoviendo una ética de respeto interspecies."
+  },
+  "urban_ecology_principles": [
+    "Pets respond strongly to human behavior and feeding, while only slightly affecting surrounding animals and plants."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/WildlifeCrossings",
+  "type": "Nodo",
+  "numero": 29,
+  "escala": "Meso",
+  "contexto": "Road",
+  "problema": "Rapid urbanization has fragmented ecosystems, disrupting migration, feeding, and breeding cycles. This fragmentation also causes collisions along natural migratory routes. Furthermore, the resulting isolation can lead to the extinction of non-human species.",
+  "solucion": {
+    "Mitiga": "Mitigates habitat fragmentation by providing wildlife crossings that reconnect ecosystems disrupted by roads and infrastructure.",
+    "Promueve": "Promotes the safe movement of species across urban landscapes, reducing the risk of vehicular collisions with wildlife.",
+    "Fomenta": "Fosters genetic diversity and species migration by facilitating access to previously isolated habitats.",
+    "Gobierna": "Encourages governance frameworks that integrate wildlife-friendly infrastructure into transportation planning and urban development."
+  },
+  "grafico": "https://drive.google.com/file/d/17AaqaNvVpFvnt1CTFRMvjOqWc7GvfprY/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "Burke, A., & Mansouri, T. M. A. (2019). What do we have in common in the landscape? Manzar Scientific Journal."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "KOWALSKA-KOCZWARA A, NERING K. Wildlife crossings and rules for their design."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conectividad ecológica",
+      "Conservación de biodiversidad",
+      "Seguridad vial para la fauna"
+    ],
+    "InfluyeEn": [
+      "Prevención de colisiones de vehículos con fauna",
+      "Restauración de hábitats fragmentados",
+      "Preservación de la diversidad genética"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Urban space for human-animal"
+      ],
+      "linkdown": [
+        "Reducing Wildlife-Vehicle Collisions",
+        "Street tree biodiversity"
+      ]
+    },
+    "AfectaA": [
+      "Seguridad de especies migratorias",
+      "Conectividad de hábitats"
+    ],
+    "EsParteDe": [
+      "Infraestructura ecológica en redes de transporte",
+      "Planes urbanos de conservación de biodiversidad"
+    ],
+    "UbicadoEn": "Carreteras y redes de transporte que atraviesan corredores naturales o rutas migratorias.",
+    "Proporciona": "Pasos seguros para la fauna que reducen colisiones vehiculares y mejoran la conectividad ecológica."
+  },
+  "urban_ecology_principles": []
+},
+    {
+  "id": "http://example.org/nodo/StreetTreeBiodiversity",
+  "type": "Nodo",
+  "numero": 21,
+  "escala": "Meso",
+  "contexto": "street",
+  "problema": "The urban tree canopy has diminished due to urbanization, which contradicts the cooling needs of cities currently affected by global warming. Vegetative cover alters the energy balance of surfaces, while the city's tree structure sequesters part of the produced CO2, purifies the air and water, and improves the microclimate. Moreover, street trees are a crucial component of urban green spaces that positively impact human well-being and mental health while simultaneously providing habitat for urban wildlife. The decrease in tree species diversity and the homogenization of often non-native tree species in streets also reduces the variety of animals and fungi coexisting with trees, further exacerbating city issues.",
+  "solucion": {
+    "Mitiga": "Mitigates the urban heat island effect by increasing tree canopy coverage, particularly with native species that offer more effective cooling and air purification.",
+    "Promueve": "Promotes the diversity of tree species on streets to support urban wildlife and improve ecosystem functions.",
+    "Fomenta": "Fosters mental well-being by integrating diverse street trees that enhance green spaces and improve air quality for residents.",
+    "Gobierna": "Encourages governance frameworks to prioritize the planting of native tree species and the preservation of biodiversity in urban planning."
+  },
+  "grafico": "https://drive.google.com/file/d/1sUEYeWat0xQfGKHljJIjxVSFjtVlzg9M/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "LIU J, SLIK F. Are street trees friendly to biodiversity? Landscape and Urban Planning."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "RENDON P, LOVE N, PAWLAK C, et al. Street tree diversity and urban heat. Urban Forestry & Urban Greening."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "MARSELLE M R, BOWLER D E, WATZEMA J, et al. Urban street tree biodiversity and antidepressant prescriptions. Scientific Reports."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Biodiversidad urbana",
+      "Calidad del aire",
+      "Microclima urbano"
+    ],
+    "InfluyeEn": [
+      "Reducción de la isla de calor urbano",
+      "Bienestar mental de los residentes",
+      "Aumento de la diversidad de especies urbanas"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Greenway corridors",
+        "Wildlife crossings"
+      ],
+      "linkdown": [
+        "Native plants for species diversity",
+        "Strategic placement of resilient trees",
+        "Permeable surfaces",
+        "Sodium vapor lamps",
+        "Light sensors",
+        "Shielded luminaires",
+        "Rain Gardens",
+        "Reducing Wildlife-Vehicle Collisions",
+        "Animal feeding in urban environments",
+        "Urban space for human-animal",
+        "Vegetation for noise attenuation"
+      ]
+    },
+    "AfectaA": [
+      "Estructura de la cubierta arbórea urbana",
+      "Condiciones de vida de la fauna urbana",
+      "Temperatura y calidad del aire"
+    ],
+    "EsParteDe": [
+      "Infraestructura verde urbana",
+      "Estrategias de mitigación del cambio climático"
+    ],
+    "UbicadoEn": "Calles y espacios urbanos que integran árboles nativos y diversidad de especies.",
+    "Proporciona": "Refugio y alimento para la fauna urbana, mejor regulación del microclima y mejoras en la salud mental de los habitantes."
+  },
+  "urban_ecology_principles": [
+    "Trees cool air by shading wall, sidewalk and street, by transpiring water, and by accelerating airflow between tree crown and wall."
+  ]
+},
+    {
+  "id": "http://example.org/nodo/ReducingWildlifeVehicleCollisions",
+  "type": "Nodo",
+  "numero": 43,
+  "escala": "Macro",
+  "contexto": "region",
+  "problema": "Roads, highways and railways primarily act as physical and biological barriers, fragmenting and dividing animal habitat. They obstruct migratory movements and daily wildlife crossings, isolating previously connected populations and reducing gene flow between them. This can negatively impact genetic diversity and viability of affected populations. Vehicular traffic on roads and highways directly causes wildlife mortality from roadkill incidents. For some threatened species, roadkill mortality rates may be high enough to seriously jeopardize population persistence. Pollutant emissions including noise, exhaust fumes and increased dust levels also degrade habitat quality near transport routes, negatively affecting wild communities. Intensive herbicide use along road and railway margins can substantially reduce availability of wildflowers, impacting groups dependent on this floral resource such as pollinators. Artificial night lighting from traffic and power lines disorients nocturnal species, increasing their risk of perishing from roadkill when attempting to cross roads.",
+  "solucion": {
+    "Mitiga": "Mitigates wildlife-vehicle collisions by implementing structural and non-structural measures such as wildlife crossings and guide fences.",
+    "Promueve": "Promotes habitat connectivity and safe wildlife migration through ecological infrastructure, including bridges, tunnels, and green corridors.",
+    "Fomenta": "Fosters awareness and community involvement through driver education campaigns and non-structural measures like signage and speed limits.",
+    "Gobierna": "Encourages governance frameworks for managing transport infrastructure to prioritize wildlife safety and habitat connectivity."
+  },
+  "grafico": "https://drive.google.com/file/d/1JR7V_4bsEEo8zW-noqjCvzOsb6qMwsx0/view?usp=drive_link",
+  "referencias": [
+    {
+      "id": "http://example.org/referencia/1",
+      "texto": "KENT E, SCHWARTZ A L W, PERKINS S E. Life in the fast lane: roadkill risk along an urban–rural gradient."
+    },
+    {
+      "id": "http://example.org/referencia/2",
+      "texto": "GLISTA D J, DEVAULT T L, DEWOODY J A. A review of mitigation measures for reducing wildlife mortality on roadways."
+    },
+    {
+      "id": "http://example.org/referencia/3",
+      "texto": "TWERD L, SOBIERAJ-BETLIŃSKA A, SZEFER P. Roads, railways, and power lines: Are they crucial for bees in urban woodlands?"
+    },
+    {
+      "id": "http://example.org/referencia/4",
+      "texto": "BARBOSA P, SCHUMAKER N H, BRANDON K R, et al. Simulating the consequences of roads for wildlife population dynamics."
+    }
+  ],
+  "relaciones": {
+    "ActuaEn": [
+      "Conectividad ecológica",
+      "Mortalidad de fauna en carreteras",
+      "Fragmentación de hábitats"
+    ],
+    "InfluyeEn": [
+      "Reducción de la mortalidad de especies",
+      "Conservación de biodiversidad",
+      "Mejora de la conectividad de hábitats"
+    ],
+    "RelacionadoCon": {
+      "linkUp": [
+        "Wildlife crossings",
+        "Street tree biodiversity"
+      ],
+      "linkdown": []
+    },
+    "AfectaA": [
+      "Movilidad de especies a través de redes viales",
+      "Seguridad de la fauna silvestre"
+    ],
+    "EsParteDe": [
+      "Infraestructura de conservación ecológica en transporte",
+      "Estrategias de mitigación de fragmentación de hábitats"
+    ],
+    "UbicadoEn": "Regiones donde las redes de transporte fragmentan hábitats y afectan la movilidad de la fauna silvestre.",
+    "Proporciona": "Pasajes seguros para la fauna silvestre, mejorando la conectividad de hábitats y reduciendo la mortalidad por colisiones en carreteras."
+  },
+  "urban_ecology_principles": [
+    "Streets and roads are barriers against, and conduits for, animal movement, in both cases with more traffic strongly decreasing movement rate."
+  ]
+}
+  ]
+}
